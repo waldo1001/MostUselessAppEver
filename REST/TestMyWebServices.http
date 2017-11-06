@@ -1,0 +1,59 @@
+### ODATA V4
+GET http://devserver:7048/NAV/ODataV4/Company('CRONUS%20International%20Ltd.')/MyQueryWebService
+Authorization: Basic admin waldo1234
+
+### ODATA
+GET http://devserver:7048/NAV/OData/Company('CRONUS%20International%20Ltd.')/MyQueryWebService
+Authorization: Basic admin waldo1234
+
+### SOAP - Codeunit without parameter
+@Method1 = TheMethod
+
+POST http://devserver:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService HTTP/1.1
+Authorization: Basic admin waldo1234
+Content-Type: text/xml
+SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Method1}}
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <{{Method1}} xmlns="urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService">                        
+        </{{Method1}}>
+    </soap:Body>
+</soap:Envelope>
+
+### SOAP - Codeunit with parameter
+@Method2 = TheMethodWithParameter
+@Parameter1Name = MyParam
+@Parameter1Value = test
+POST http://devserver:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService HTTP/1.1
+Authorization: Basic admin waldo1234
+Content-Type: text/xml
+SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Method2}}
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <{{Method2}} xmlns="urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService">                        
+            <{{Parameter1Name }}>{{Parameter1Value}}</{{Parameter1Name }}>
+        </{{Method2}}>
+    </soap:Body>
+</soap:Envelope>
+
+### SOAP - Codeunit with XMLPort
+@Method = TheMethodWithXMLPort
+@Parameter2Name = MyXMLPort
+@Parameter2Value = 
+POST http://devserver:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService 
+Authorization: Basic admin waldo1234
+Content-Type: text/xml
+SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Method}}
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <{{Method}} xmlns="urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService">                        
+            <{{Parameter2Name}}>{{Parameter2Value}}</{{Parameter2Name}}>
+        </{{Method}}>
+    </soap:Body>
+</soap:Envelope>

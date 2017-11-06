@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExportedData>
+    <TenantWebServiceCollection>
+        <TenantWebService>
+            <ObjectType>5</ObjectType>
+            <ServiceName>MyCodeunitWebService</ServiceName>
+            <ObjectID>50102</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>          
+    </TenantWebServiceCollection>
+</ExportedData>
