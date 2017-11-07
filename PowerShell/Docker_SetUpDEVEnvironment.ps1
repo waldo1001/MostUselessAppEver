@@ -25,3 +25,5 @@ New-NavContainer `
     -auth NavUserPassword `
     -includeCSide `
     -Verbose 
+
+start "http://$($DEVServer):8080/"
