@@ -7,7 +7,7 @@ page 50100 "Just Some Page"
     {
         area(content)
         {
-            repeater(content)
+            repeater(JustSomeTableRecords)
             {
                 field(Name;"No.")
                 {
