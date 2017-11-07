@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "al",
+			"request": "launch",
+			"name": "Local server",
+			"server": "http://DEVServer/",
+			"serverInstance": "NAV",
+			"tenant": "default",
+			"authentication": "UserPassword",			
+			"startupObjectId": 22
+		}
+	]
+}

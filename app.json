@@ -1,10 +1,10 @@
 {
   "id": "b528ee70-8b63-4bd8-967c-402f9476b428",
-  "name": "MostUselessAppEver",
-  "publisher": "Default publisher",
+  "name": "Most Useless App Ever",
+  "publisher": "waldo",
   "brief": "",
   "description": "",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
   "compatibilityId": "1.0.0.0",
   "privacyStatement": "",
   "EULA": "",
@@ -17,7 +17,7 @@
   "platform": "11.0.0.0",
   "application": {
     "version": "11.0.0.0",
-    "locale": "US"
+    "locale": "W1"
   },
   "idRange": {
     "from": 50100,

@@ -1,0 +1,30 @@
+@CustomerEmail = test@gmail.com
+@CustomerNo = cus_BicluokqQZsbFX
+@InvoiceItem1 = ii_1BIdHNB9EY0gFTn0ypGoRoWC
+@InvoiceNo = in_1BIdHYB9EY0gFTn0zA9szsnF
+
+### Create a Customer in Stripe
+POST https://api.stripe.com/v1/customers
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer sk_test_yBxSTp4t2pTcx37gBFhw5ZKQ
+
+&description=Test Customer&email={{CustomerEmail}} 
+
+### Create an Invoice Item 
+POST https://api.stripe.com/v1/invoiceitems
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer sk_test_yBxSTp4t2pTcx37gBFhw5ZKQ
+
+&customer={{CustomerNo}}&amount=1000&currency=usd&description=Ticket_A 
+
+### Create an Invoice
+POST https://api.stripe.com/v1/invoices
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer sk_test_yBxSTp4t2pTcx37gBFhw5ZKQ
+
+&customer={{CustomerNo}}&billing=send_invoice&days_until_due=10 
+
+### Get the Invoice from Stripe
+GET https://api.stripe.com/v1/invoices/{{InvoiceNo}}
+Authorization: Bearer sk_test_yBxSTp4t2pTcx37gBFhw5ZKQ 
+ 
