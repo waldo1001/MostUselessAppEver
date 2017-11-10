@@ -14,6 +14,14 @@ codeunit 50103 "Just Some Notification"
         MyNotification.Message('Just Some Message');
         MyNotification.send;
 
+
+
+
+
+
+
+
+
     end;
 
 }
