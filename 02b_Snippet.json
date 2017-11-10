@@ -25,6 +25,18 @@
         ],
         "description": "Snippet: Table"
     },
+    "Snippet: Codeunit": {
+        "prefix": "tcodeunit (Clean)",
+        "body": [
+            "codeunit ${1:id} ${2:$TM_FILENAME}",
+            "{",
+            "\ttrigger OnRun();",
+            "\tbegin",
+            "\tend;",
+            "}"
+        ],
+        "description": "Snippet: Codeunit"
+    },
     "Snippet: Repeat Loop": {
         "prefix": "trepeatloop",
         "body" : [
