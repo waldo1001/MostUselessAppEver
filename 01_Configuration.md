@@ -18,6 +18,10 @@ Examples:
 ## Keyboard Shortcuts
 again, a json file.
 
+Make it your familiar editor:
+F3 - Insert Line
+F4 - Delete Line
+
 ## App and launch
 app.json
 launch.json

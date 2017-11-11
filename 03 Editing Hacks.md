@@ -17,3 +17,10 @@
 - Join lines (Interesting for publishers)
 - CTRL+j: Toggle panel
 - CTRL+i: select line
+
+## Multi Cursor
+- ALT+Click: Adds Cursor
+- SHIFT+ALT+Click: Block Selection
+- F2: rename symbol
+- CTRL+F2: select all instances
+- CTRL+D: select next instance
