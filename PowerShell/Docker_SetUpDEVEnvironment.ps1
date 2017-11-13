@@ -5,25 +5,23 @@ New-NavContainer `
     -containerName $DEVServer `
     -imageName $DockerImage `
     -licenseFile $LicenseFile `
-    -vmAdminUsername admin `
-    -adminPassword (convertTo-SecureString -String $password -AsPlainText -Force) `
     -memoryLimit $MemoryDEVServer `
     -updateHosts `
     -auth NavUserPassword `
     -includeCSide `
-    -Verbose 
+    -Verbose `
+    -Credential $Credential 
 
 New-NavContainer `
     -accept_eula `
     -containerName $TESTServer `
     -imageName $DockerImage `
     -licenseFile $LicenseFile `
-    -vmAdminUsername admin `
-    -adminPassword (convertTo-SecureString -String $password -AsPlainText -Force) `
     -memoryLimit $MemoryTESTServer `
     -updateHosts `
     -auth NavUserPassword `
     -includeCSide `
-    -Verbose 
+    -Verbose `
+    -Credential $Credential 
 
-start "http://$($DEVServer):8080/"
+Start-Process "http://$($DEVServer):8080/"

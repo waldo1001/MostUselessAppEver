@@ -17,6 +17,7 @@
 - Join lines (Interesting for publishers)
 - CTRL+j: Toggle panel
 - CTRL+i: select line
+- CRRL+k z: Zen mode
 
 ## Multi Cursor
 - ALT+Click: Adds Cursor
