@@ -3,8 +3,8 @@ $LaunchJSON = Get-ObjectFromJSON -Path '.\.vscode\launch.json'
 
 $DockerImage = 'microsoft/dynamics-nav:devpreview'
 
-$DEVServer = 'devserver'
-$TESTServer = 'testserver'
+$DEVServer = 'devsrv'
+$TESTServer = 'testsrv'
 $TESTDatabaseServer = "$TESTServer\SQLEXPRESS"
 $DatabaseName = 'CRONUS'
 #$LicenseFile = 'https://www.dropbox.com/s/ikizvkpl0pgbwf1/2017%20DEV%20License%20CRS.flf?dl=1'
