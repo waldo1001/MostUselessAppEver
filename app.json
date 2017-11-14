@@ -10,15 +10,12 @@
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
+  "logo": ".\\images\\icon.png",
   "capabilities": [],
   "dependencies": [],
   "screenshots": [],
   "platform": "11.0.0.0",
-  "application": {
-    "version": "11.0.0.0",
-    "locale": "W1"
-  },
+  "application": "11.0.0.0",
   "idRange": {
     "from": 50100,
     "to": 50149
