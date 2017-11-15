@@ -1,6 +1,6 @@
 /* 
 To Connect:
-- Server: DEVServer\SQLEXPRESS
+- Server: devsrv\SQLEXPRESS
 - UID: sa
 - pwd: waldo1234
 */
