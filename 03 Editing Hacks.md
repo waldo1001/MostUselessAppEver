@@ -1,4 +1,5 @@
 # Editing Hacks
+- CTRL+k v: Open Markdown Preview (on the side)
 
 ## Navigation
 -  F12: Go To Definition
@@ -13,7 +14,6 @@
 - CTRL+t: Go To Symbol IN WORKSPACE
 - ALT+Up/Down: Move line up/down
 - CTRL+SHIFT+v: Open Markdown Preview
-- CTRL+k v: Open Markdown Preview (on the side)
 - Join lines (Interesting for publishers)
 - CTRL+j: Toggle panel
 - CTRL+i: select line

@@ -9,4 +9,7 @@ Invoke-Sqlcmd `
     -Database $DatabaseName `
     -Username sa `
     -Password $password `
-    -Query 'SELECT TOP 10 * FROM [CRONUS International Ltd_$Just Some Table]'     
+    -Query 'SELECT TOP 10 * FROM [CRONUS International Ltd_$Just Some Table]' 
+
+Get-NavContainerAppInfo `
+    -containerName $TESTServer 

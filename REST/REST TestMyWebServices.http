@@ -25,7 +25,7 @@ SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Metho
 ### SOAP - Codeunit with parameter
 @Method2 = TheMethodWithParameter
 @Parameter1Name = MyParam
-@Parameter1Value = test
+@Parameter1Value = waldo
 POST http://devsrv:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService HTTP/1.1
 Authorization: Basic admin waldo1234
 Content-Type: text/xml
