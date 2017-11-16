@@ -9,6 +9,7 @@ Examples:
 - Font
 - CodeLens
 
+Language-specific settings:
 `
     "[al]": {
     "editor.codeLens": false
@@ -28,3 +29,5 @@ launch.json
 
 ## Snippets
 User Snippets
+
+You can find all the Microsoft-al-snippets in your user profile: `%userprofile%\.vscode\extensions\Microsoft.al-0...`

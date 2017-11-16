@@ -42,6 +42,7 @@
         "body" : [
             "if ${1:record}.${2|FindSet,Find('-'),FindFirst|} then",
             "\trepeat",
+            "\t\t${3}",
             "\tuntil cust.next < 1;"
         ]
     }
