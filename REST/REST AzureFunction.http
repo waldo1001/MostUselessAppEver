@@ -1,0 +1,9 @@
+@Name1 = waldo
+@Name2 = vjeko
+
+### Call Vjeko's Azure Function with Name 1
+GET https://demod2017-01.azurewebsites.net/api/TestAzure?name={{Name1}}
+
+
+### Call Vjeko's Azure Function with Name 2
+GET https://demod2017-01.azurewebsites.net/api/TestAzure?name={{Name2}}

@@ -19,7 +19,7 @@
 - CTRL+i: select line
 - CRRL+k z: Zen mode
 
-## Multi Cursor
+## Multi Cursor/Selection
 - ALT+Click: Adds Cursor
 - SHIFT+ALT+Click: Block Selection
 - F2: rename symbol

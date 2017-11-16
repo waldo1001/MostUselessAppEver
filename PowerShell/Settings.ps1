@@ -7,7 +7,6 @@ $DEVServer = 'devsrv'
 $TESTServer = 'testsrv'
 $TESTDatabaseServer = "$TESTServer\SQLEXPRESS"
 $DatabaseName = 'CRONUS'
-#$LicenseFile = 'https://www.dropbox.com/s/ikizvkpl0pgbwf1/2017%20DEV%20License%20CRS.flf?dl=1'
 $LicenseFile = "C:\Demo\license.flf"
 $MemoryDEVServer = '3G'
 $MemoryTESTServer = '3G'
@@ -24,5 +23,5 @@ $LastAppFile = (Get-ChildItem . -Filter '*.app' |
                         Select-Object -First 1).Fullname
 
 $TESTmainPageId = 50100
-$TESTmainPageUrl = "http://$TESTServer/nav/?tenant=default&Page=$mainPageId"
+$TESTmainPageUrl = "http://$TESTServer/nav/?tenant=default&Page=$TESTmainPageId"
 

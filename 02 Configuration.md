@@ -6,7 +6,7 @@ Settings are all json-files, put an a specific place with a specific filename:
 
 Examples:
 - Zoom
-- Font
+- Theme
 - CodeLens
 
 Language-specific settings:

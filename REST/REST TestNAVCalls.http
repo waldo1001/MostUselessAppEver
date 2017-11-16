@@ -8,6 +8,6 @@ GET http://testsrv:7048/NAV/OData/Company('CRONUS%20International%20Ltd.')/Job_L
 Authorization: Basic admin waldo1234
 
 ### ODATA V4
-GET http://testsrv:7048/NAV/ODataV4/Company('CRONUS%20International%20Ltd.')/Job_List?$select=No,Description,Bill_to_Customer_No,Status,Person_Responsible,Search_Description,Project_Manager
+GET http://devsrv:7048/NAV/ODataV4/Company('CRONUS%20International%20Ltd.')/Job_List?$select=No,Description,Bill_to_Customer_No,Status,Person_Responsible,Search_Description,Project_Manager
 Authorization: Basic admin waldo1234
 

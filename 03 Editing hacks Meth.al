@@ -9,7 +9,7 @@ codeunit 50101 "Editing Hacks Meth"
         Handled : Boolean;
     begin
         OnBeforeEditingHacks(Handled);
-
+        
         DoEditingHacks(Handled);
 
         OnAfterEditingHacks;

@@ -4,6 +4,7 @@ Primary means of interaction with VS Code
     - Quick keyboard-based access to all functionality (basic and extension)
 * Ctrl+P
     - File access and CLI access to supported functionality (including extensions)
+    - Search Symbol (like field "Just some field")
 
 # Searching
 * Content is filtered by entered letters
