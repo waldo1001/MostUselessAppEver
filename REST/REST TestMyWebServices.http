@@ -1,8 +1,8 @@
-### ODATA V4
+### ODATA V4 - Query
 GET http://devsrv:7048/NAV/ODataV4/Company('CRONUS%20International%20Ltd.')/MyQueryWebService
 Authorization: Basic admin waldo1234
 
-### ODATA
+### ODATA - Query
 GET http://devsrv:7048/NAV/OData/Company('CRONUS%20International%20Ltd.')/MyQueryWebService
 Authorization: Basic admin waldo1234
 
