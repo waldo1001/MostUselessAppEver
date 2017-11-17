@@ -1,5 +1,5 @@
 @Name1 = waldo
-@Name2 = vjeko
+@Name2 = y'all - have a great time here @ NAVTechDays?
 
 ### Call Vjeko's Azure Function with Name 1
 GET https://demod2017-01.azurewebsites.net/api/TestAzure?name={{Name1}}
