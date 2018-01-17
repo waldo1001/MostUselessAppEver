@@ -1,16 +1,16 @@
 ### ODATA V4 - Query
 GET http://devsrv:7048/NAV/ODataV4/Company('CRONUS%20International%20Ltd.')/MyQueryWebService
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 
 ### ODATA - Query
 GET http://devsrv:7048/NAV/OData/Company('CRONUS%20International%20Ltd.')/MyQueryWebService
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 
 ### SOAP - Codeunit without parameter
 @Method1 = TheMethod
 
 POST http://devsrv:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService HTTP/1.1
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 Content-Type: text/xml
 SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Method1}}
 
@@ -27,7 +27,7 @@ SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Metho
 @Parameter1Name = MyParam
 @Parameter1Value = waldo
 POST http://devsrv:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService HTTP/1.1
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 Content-Type: text/xml
 SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Method2}}
 
@@ -45,7 +45,7 @@ SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Metho
 @Parameter2Name = MyXMLPort
 @Parameter2Value = 
 POST http://devsrv:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService 
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 Content-Type: text/xml
 SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Method}}
 

@@ -1,13 +1,13 @@
 ### Page web Service
 ### SOAP
 GET http://devsrv:7047/NAV/WS/CRONUS%20International%20Ltd./Page/Job_List
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 
 ### ODATA
 GET http://devsrv:7048/NAV/OData/Company('CRONUS%20International%20Ltd.')/Job_List?$select=No,Description,Bill_to_Customer_No,Status,Person_Responsible,Search_Description,Project_Manager
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 
 ### ODATA V4
 GET http://devsrv:7048/NAV/ODataV4/Company('CRONUS%20International%20Ltd.')/Job_List?$select=No,Description,Bill_to_Customer_No,Status,Person_Responsible,Search_Description,Project_Manager
-Authorization: Basic admin waldo1234
+Authorization: Basic waldo waldo1234
 
