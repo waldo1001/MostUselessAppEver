@@ -10,8 +10,11 @@
 ## Editing
 - ALT+SHIFT+Up: Copy Line (also on multiple lines)
 - ALT+SHIFT+left/right: Shrink/Expand selection
-- CTRL+SHIFT+o: Go To Symbol IN FILE - Group by kind by adding ':'
+- CTRL+SHIFT+o: Go To Symbol IN FILE
+    - Group by kind by adding ':'
+    - same as CTRL+P and add @
 - CTRL+t: Go To Symbol IN WORKSPACE
+    - same as CTRL+P and add #
 - ALT+Up/Down: Move line up/down
 - CTRL+SHIFT+v: Open Markdown Preview
 - Join lines (Interesting for publishers)
@@ -25,3 +28,6 @@
 - F2: rename symbol
 - CTRL+F2: select all instances
 - CTRL+D: select next instance
+
+Note:
+you can find/Replace on all files using the Search (CTRL+SHIFT+F)
