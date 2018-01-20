@@ -15,10 +15,10 @@ Invoke-Command -ComputerName $DockerHost -ScriptBlock {
         -containerName $DEVServer `
         -imageName $DockerImage `
         -licenseFile $LicenseFile `
-        -alwaysPull `
         -doNotExportObjectsToText `
         -additionalParameters @("--network=tlan","--ip $IPDEVServer") `
         -memoryLimit $MemoryDEVServer `
+        -alwaysPull `
         -updateHosts `
         -auth NavUserPassword `
         -includeCSide `

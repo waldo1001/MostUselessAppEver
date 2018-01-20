@@ -21,6 +21,7 @@
 - CTRL+j: Toggle panel
 - CTRL+i: select line
 - CRRL+k z: Zen mode
+- ALT+SHIFT+F: Format Code
 
 ## Multi Cursor/Selection
 - ALT+Click: Adds Cursor
