@@ -6,10 +6,10 @@ codeunit 50101 "Editing Hacks Meth"
 
     procedure EditingHacks();
     var
-        Handled : Boolean;
+        Handled: Boolean;
     begin
         OnBeforeEditingHacks(Handled);
-        
+
         DoEditingHacks(Handled);
 
         OnAfterEditingHacks;
@@ -23,7 +23,7 @@ codeunit 50101 "Editing Hacks Meth"
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeEditingHacks(var Handled : Boolean);
+    local procedure OnBeforeEditingHacks(var Handled: Boolean);
     begin
     end;
 

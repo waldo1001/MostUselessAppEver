@@ -1,4 +1,4 @@
-tableextension 50100 "Just Some Table Extension" extends Customer
+tableextension 50100 "Just Some Table Extension" extends Customer //18
 {
     fields
     {

@@ -28,13 +28,11 @@ codeunit 50105 "Dirty Codeunit"
     begin
         Message('from an unformatted codeunit, subscribed on table 18');
         case myInt of 
-            1:
-                begin 
-                    exit(true) 
-                end;
+            1: exit(true); 
+              
             2:
                 begin 
-                    exit(true) 
+                    exit(true); 
                 end;
             3:
                 begin 
