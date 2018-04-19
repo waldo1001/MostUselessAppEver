@@ -18,4 +18,11 @@ table 50106 "Completely Useless table"
             Clustered = true;
         }
     }
+
+    procedure EditingHack()
+    var
+        EditingHacks: Codeunit "Editing Hacks Meth";
+    begin
+        EditingHacks.EditingHacks();
+    end;
 }

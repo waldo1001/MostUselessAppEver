@@ -12,7 +12,7 @@ codeunit 50101 "Editing Hacks Meth"
 
         DoEditingHacks(Handled);
 
-        OnAfterEditingHacks;
+        OnAfterEditingHacks();
     end;
 
     local procedure DoEditingHacks(var Handled: Boolean);
