@@ -9,7 +9,8 @@
 			"serverInstance": "NAV",
 			"tenant": "default",
 			"authentication": "UserPassword",
-			"startupObjectId": 22
+			"startupObjectId": 22,
+			"startupObjectType": "Page"
 		}
 	]
 }
