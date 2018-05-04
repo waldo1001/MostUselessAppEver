@@ -4,5 +4,6 @@
         "${CodeCop}",
         "${AppSourceCop}"
     ],
-    "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json"
+    "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
+    "CRS.OnSaveAlFileAction": "DoNothing"
 }

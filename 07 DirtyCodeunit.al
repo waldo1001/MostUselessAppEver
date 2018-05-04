@@ -18,7 +18,7 @@ codeunit 50105 "Dirty Codeunit"
     begin
         Message('let us show another message');
         repeat
-            Message('Customer %1',mycust."No.");
+            Message('Customer %1', mycust."No.");
         until mycust.Next < 1;
     end;
 
@@ -27,68 +27,79 @@ codeunit 50105 "Dirty Codeunit"
         myInt: Integer;
     begin
         Message('from an unformatted codeunit, subscribed on table 18');
-        case myInt of 
-            1: exit(true); 
-              
+        case myInt of
+            1:
+                exit(true);
+
             2:
-                begin 
-                    exit(true); 
+                begin
+                    exit(true);
                 end;
             3:
-                begin 
+                begin
                     exit(false);
                 end;
             4:
-                begin 
+                begin
                     exit(true);
                 end;
             5:
-                begin 
+                begin
                     exit(true);
                 end;
             6:
-                begin 
+                begin
                     exit(true);
                 end;
             7:
-                begin 
+                begin
                     exit(true);
                 end;
             8:
-                begin 
+                begin
                     exit(true);
                 end;
             9:
-                begin 
+                begin
                     exit(true);
                 end;
             10:
-                begin 
+                begin
                     exit(true);
                 end;
             11:
-                begin 
+                begin
                     exit(true);
                 end;
             12:
-                begin 
+                begin
                     exit(true);
                 end;
             13:
-                begin 
+                begin
                     exit(true);
                 end;
             14:
-                begin 
+                begin
                     exit(true);
                 end;
         end;
-        if(myInt > 1) then begin
+        if (myInt > 1) then begin
             exit(true);
-        end 
+        end
         else begin
             exit(false);
         end;
+    end;
+
+    local procedure OverloadedMethod(myVar: Text)
+    begin
+
+    end;
+
+    local procedure OverloadedMethod(Rec: Record Customer)
+    begin
+
     end;
 
     var

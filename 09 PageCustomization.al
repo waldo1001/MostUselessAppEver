@@ -8,6 +8,7 @@ pagecustomization "SomeCustomizationtherewhere" customizes "Customer Card"
     actions
     {
         // Add changes to page actions here
+        
     }
     
     //Variables, procedures and triggers are not allowed on Page Customizations
