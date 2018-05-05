@@ -20,7 +20,7 @@
 - Join lines (Interesting for publishers)
 - CTRL+j: Toggle panel
 - CTRL+i: select line
-- CRRL+k z: Zen mode
+- CTRL+k z: Zen mode
 - ALT+SHIFT+F: Format Code
 
 ## Multi Cursor/Selection
