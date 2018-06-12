@@ -22,6 +22,7 @@
 - CTRL+i: select line
 - CRRL+k z: Zen mode
 - ALT+SHIFT+F: Format Code
+- ALT+SHIFT+A: Toggle Block Commenting
 
 ## Multi Cursor/Selection
 - ALT+Click: Adds Cursor

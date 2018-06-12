@@ -5,5 +5,6 @@
         "${AppSourceCop}"
     ],
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
-    "CRS.OnSaveAlFileAction": "DoNothing"
+    "CRS.OnSaveAlFileAction": "DoNothing",
+    "editor.formatOnSave": false
 }
