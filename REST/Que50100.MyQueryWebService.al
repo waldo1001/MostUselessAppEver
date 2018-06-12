@@ -1,4 +1,4 @@
-query 50100 MyQueryWebService {
+query 50100 "MyQueryWebService" {
     elements{
         dataitem(Customer;Customer){
             Description='Customers';

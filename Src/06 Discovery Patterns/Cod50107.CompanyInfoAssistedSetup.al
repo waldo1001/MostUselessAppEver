@@ -1,4 +1,4 @@
-codeunit 50107 CompanyInfoAssistedSetup
+codeunit 50107 "CompanyInfoAssistedSetup"
 {
     [EventSubscriber(ObjectType::Table, Database::"Aggregated Assisted Setup", 'OnRegisterAssistedSetup', '', false, false)]
     local procedure AddExtensionAssistedSetup_OnRegisterAssistedSetup(var TempAggregatedAssistedSetup: Record "Aggregated Assisted Setup" TEMPORARY);

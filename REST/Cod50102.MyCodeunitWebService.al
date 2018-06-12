@@ -1,4 +1,4 @@
-codeunit 50102 MyCodeunitWebService {
+codeunit 50102 "MyCodeunitWebService" {
     procedure TheMethod ();
     begin
         Error('Success.');

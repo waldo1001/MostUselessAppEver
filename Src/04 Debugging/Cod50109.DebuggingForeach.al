@@ -1,4 +1,4 @@
-codeunit 50109 DebuggingForeach
+codeunit 50109 "DebuggingForeach"
 {
     [EventSubscriber(ObjectType::Codeunit, Codeunit::LogInManagement, 'OnAfterLogInStart', '', true, true)]
     local procedure LoopList()

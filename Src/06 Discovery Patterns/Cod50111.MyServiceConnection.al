@@ -1,4 +1,4 @@
-codeunit 50111 MyServiceConnection
+codeunit 50111 "MyServiceConnection"
 {
     [EventSubscriber(ObjectType::Table, Database::"Service Connection", 'OnRegisterServiceConnection', '', false, false)]
     local procedure AddSetup_OnRegisterServiceConnection(var ServiceConnection: Record "Service Connection")

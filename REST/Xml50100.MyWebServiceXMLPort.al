@@ -1,4 +1,4 @@
-xmlport 50100 MyWebServiceXMLPort
+xmlport 50100 "MyWebServiceXMLPort"
 {
     schema
     {

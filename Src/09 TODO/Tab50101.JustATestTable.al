@@ -1,4 +1,4 @@
-table 50101 JustATestTable
+table 50101 "JustATestTable"
 {
     DataClassification = ToBeClassified;
 
