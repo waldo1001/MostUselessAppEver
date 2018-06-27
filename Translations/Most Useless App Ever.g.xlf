@@ -8,6 +8,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales&amp;Receivables - Field MyField - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3043990830 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3043990830 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field Description - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3046260244 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -32,16 +42,6 @@
           <source>My Field with a weird / Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field My Field with a weird / Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3043990830 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3043990830 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
           <source>Notification Name</source>
