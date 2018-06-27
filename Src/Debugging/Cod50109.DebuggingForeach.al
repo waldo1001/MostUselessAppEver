@@ -16,7 +16,16 @@ codeunit 50109 "DebuggingForeach"
         foreach Name in Names do
             SomeIndex := Names.IndexOf(Name);
 
+        //message('hello');
     end;
+
+
+
+
+
+
+
+
 
     [EventSubscriber(ObjectType::Codeunit, codeunit::LogInManagement, 'OnAfterLogInStart', '', true, true)]
     local procedure LoopSplitList();

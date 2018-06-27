@@ -9,8 +9,11 @@
 			"serverInstance": "NAV",
 			"tenant": "default",
 			"authentication": "UserPassword",
-			"startupObjectId": 22,
-			"startupObjectType": "Page"
+			"startupObjectId": 50100,
+			"startupObjectType": "Page",
+			"schemaUpdateMode": "Recreate",
+			"breakOnError": true,
+			"breakOnRecordWrite": false
 		}
 	]
 }

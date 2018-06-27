@@ -124,28 +124,28 @@ page 50101 "SomeWizard Wizard"
                 InFooterBar = true;
                 trigger OnAction();
                 begin
-                    FinishAction;
+                    FinishAction();
                 end;
             }
         }
     }
     trigger OnInit();
     begin
-        LoadTopBanners;
+        LoadTopBanners();
     end;
 
     trigger OnOpenPage();
     var
         SomeTable: Record "Just Some Table";
     begin
-        INIT;
-        IF SomeTable.GET THEN BEGIN
+        INIT();
+        IF SomeTable.GET() THEN BEGIN
             TRANSFERFIELDS(SomeTable);
         END;
-        INSERT;
+        INSERT();
 
         Step := Step::Start;
-        EnableControls;
+        EnableControls();
     end;
 
     var
@@ -164,7 +164,7 @@ page 50101 "SomeWizard Wizard"
 
     local procedure EnableControls();
     begin
-        ResetControls;
+        ResetControls();
 
         CASE Step OF
             Step::Start:
@@ -180,21 +180,21 @@ page 50101 "SomeWizard Wizard"
     var
         SomeTable: Record "Just Some Table";
     begin
-        IF NOT SomeTable.GET THEN BEGIN
-            SomeTable.INIT;
-            SomeTable.INSERT;
+        IF NOT SomeTable.GET() THEN BEGIN
+            SomeTable.INIT();
+            SomeTable.INSERT();
         END;
 
         SomeTable.TRANSFERFIELDS(Rec, FALSE);
         SomeTable.MODIFY(TRUE);
-        COMMIT;
+        COMMIT();
     end;
 
 
     local procedure FinishAction();
     begin
-        StoreSomeTable;
-        CurrPage.CLOSE;
+        StoreSomeTable();
+        CurrPage.CLOSE();
     end;
 
     local procedure NextStep(Backwards: Boolean);
@@ -204,7 +204,7 @@ page 50101 "SomeWizard Wizard"
         ELSE
             Step := Step + 1;
 
-        EnableControls;
+        EnableControls();
     end;
 
     local procedure ShowStep1();
@@ -241,12 +241,12 @@ page 50101 "SomeWizard Wizard"
 
     local procedure LoadTopBanners();
     begin
-        IF MediaRepositoryStandard.GET('AssistedSetup-NoText-400px.png', FORMAT(CURRENTCLIENTTYPE)) AND
-           MediaRepositoryDone.GET('AssistedSetupDone-NoText-400px.png', FORMAT(CURRENTCLIENTTYPE))
+        IF MediaRepositoryStandard.GET('AssistedSetup-NoText-400px.png', FORMAT(CURRENTCLIENTTYPE())) AND
+           MediaRepositoryDone.GET('AssistedSetupDone-NoText-400px.png', FORMAT(CURRENTCLIENTTYPE()))
         THEN
             IF MediaResourcesStandard.GET(MediaRepositoryStandard."Media Resources Ref") AND
                MediaResourcesDone.GET(MediaRepositoryDone."Media Resources Ref")
             THEN
-                TopBannerVisible := MediaResourcesDone."Media Reference".HASVALUE;
+                TopBannerVisible := MediaResourcesDone."Media Reference".HASVALUE();
     end;
 }

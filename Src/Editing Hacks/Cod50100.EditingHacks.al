@@ -1,25 +1,24 @@
-codeunit 50108 "Configure Codeunit"{
-    
+codeunit 50100 "Editing Hacks"
+{
+
     local procedure One();
     begin
-        Two();
+        Four();
         Three();
-        Three();
-        Two();
     end;
-    
-    local procedure Two();
+
+    local procedure Four();
     var
+        cust: record Customer;
         EditingHacksMeth: Codeunit "Editing Hacks Meth";
     begin
         EditingHacksMeth.EditingHacks();
-        MyPublisher;
+        MyPublisher();
     end;
 
-    [IntegrationEvent(false,false)]
-    local procedure MyPublisher(); 
-    begin 
-
+    [IntegrationEvent(false, false)]
+    local procedure MyPublisher();
+    begin
     end;
 
     local procedure Three();

@@ -2,9 +2,11 @@
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${CodeCop}",
-        "${AppSourceCop}"
+        "${AppSourceCop}",
+        "${UICop}"
     ],
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
     "CRS.OnSaveAlFileAction": "Rename",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "CRS.AlSubFolderName": "None"
 }

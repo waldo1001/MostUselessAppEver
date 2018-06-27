@@ -1,7 +1,11 @@
 $AppJSON = Get-ObjectFromJSON -Path '.\app.json'
 $LaunchJSON = Get-ObjectFromJSON -Path '.\.vscode\launch.json'
 
+
 $DockerHost = 'waldocorevm'
+$DockerHostUseSSL = $false
+$DockerHostSessionOption = New-PSSessionOption
+
 
 $DockerImage = 'microsoft/dynamics-nav:devpreview'
 

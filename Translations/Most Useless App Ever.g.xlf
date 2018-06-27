@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Most Useless App Ever">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1055183171 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales&amp;Receivables - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3046260244 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Completely Useless table - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3046260244 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Completely Useless table - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2294027 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2294027 - Field 3945078064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field MyField2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2294027 - Field 702913972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Field with a weird / Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field My Field with a weird / Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3043990830 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3043990830 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
+          <source>Notification Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 1314462029" size-unit="char" translate="no" xml:space="preserve">
+          <source>Description Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2770123433 - Method 999142918 - NamedType 995150" size-unit="char" translate="no" xml:space="preserve">
+          <source>Some Service Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Procedure AddSetup_OnRegisterServiceConnection - NamedType ServiceName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2770123433 - Method 999142918 - NamedType 2733904281" size-unit="char" translate="no" xml:space="preserve">
+          <source>Some Host Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Procedure AddSetup_OnRegisterServiceConnection - NamedType HostName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 268642636 - Method 2414515418 - NamedType 1819989136" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Procedure ConfirmCreatePallet - NamedType AreYouSure</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 268642636 - Method 2182258215 - NamedType 3878926381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Success!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Procedure AckCreatePallet - NamedType Success</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeWizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1121962313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control StandardBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 300852202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control FinishedBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1033154962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to SomeWizard Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Welcome to SomeWizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step1 - Replace this text with some instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 3647570164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Let's go!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Let's go! - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 727926705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 727926705 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step1 - Replace this text with some more instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2279239964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2279239964 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step2 - Replace this text with some instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1365623322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1365623322 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step3 - Replace this text with some instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1546979963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>That's it!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control That's it! - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2641016556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2641016556 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To save this setup, choose Finish.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Action 2438272767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Action 914282563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Action 3259912055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1301162578 - Action 1861714008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Pallet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Action CreatePallet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2336385525 - Field 2765746434 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Just Some Field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just Some field - Property caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2336385525 - Field 2674474782 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Just Some other Field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just Some other field - Property caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2336385525 - Field 3876164035 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Just a third field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just third field - Property caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2336385525 - Field 3320410323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fourth field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field A Fourth field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2336385525 - Field 1532687237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Fifth field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field My Fifth field - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

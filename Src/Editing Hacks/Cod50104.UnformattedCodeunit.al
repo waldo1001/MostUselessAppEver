@@ -17,7 +17,7 @@ begin
 Message('let us show another message');
 repeat
 Message('Customer %1',mycust."No.");
-until mycust.Next < 1;
+until mycust.Next() < 1;
 end;
 [EventSubscriber(ObjectType::Table,18,'OnAfterInsertEvent','',true,true)]
 local procedure MyProcedure();
