@@ -73,6 +73,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Procedure AckCreatePallet - NamedType Success</note>
         </trans-unit>
+        <trans-unit id="Codeunit 676847404 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 676847404 - Method 3565230117 - NamedType 1314462029" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+        </trans-unit>
         <trans-unit id="Page 3519257680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SomeWizard</source>
           <note from="Developer" annotates="general" priority="2"></note>
