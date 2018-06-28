@@ -1,10 +1,4 @@
-dotnet
-{
-    assembly(mscorlib)
-    {
-        type("System.DateTime"; DotNetDateTime) { }
-    }
-}
+
 
 codeunit 50118 "TestDotNetInterop"
 {
@@ -12,7 +6,9 @@ codeunit 50118 "TestDotNetInterop"
     local procedure MyProcedure()
     var
         myDate: DotNet DotNetDateTime;
+        myString: dotnet DotNetString;
     begin
         //message('Current Date: %1', myDate.Now().ToString());
+        
     end;
 }
