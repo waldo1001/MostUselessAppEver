@@ -41,5 +41,4 @@ tableextension 50100 "Just Some Table Extension" extends Customer //18
     begin
         rec.CreateAndShowNewInvoice('waldo');
     end;
-
 }

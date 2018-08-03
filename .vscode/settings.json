@@ -8,5 +8,11 @@
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
     "CRS.OnSaveAlFileAction": "Rename",
     "editor.formatOnSave": false,
-    "CRS.AlSubFolderName": "None"
+    "CRS.AlSubFolderName": "None",
+    //"CRS.ObjectNamePrefix": "CRS ",
+    "CRS.RemovePrefixFromFilename": true,
+    //"CRS.ObjectNameSuffix": " CRS",
+    "CRS.RemoveSuffixFromFilename": true,
+    "CRS.ExtensionObjectNamePattern": "<Prefix><BaseNameShort>.<ObjectTypeShort>Ext",
+    "CRS.DisableDefaultAlSnippets": true
 }

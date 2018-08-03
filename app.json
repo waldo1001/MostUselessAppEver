@@ -23,5 +23,6 @@
   "features": [
     "TranslationFile"
   ],
-  "target": "Internal"
+  "target": "Internal",
+  "runtime": "2.0 (Business Central Fall 2018)"
 }

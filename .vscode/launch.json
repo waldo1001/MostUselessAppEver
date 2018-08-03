@@ -11,8 +11,8 @@
 			"authentication": "UserPassword",
 			"startupObjectId": 50100,
 			"startupObjectType": "Page",
-			"schemaUpdateMode": "Recreate",
-			"breakOnError": true,
+			"schemaUpdateMode": "Synchronize",
+			"breakOnError": false,
 			"breakOnRecordWrite": false
 		}
 	]

@@ -7,7 +7,7 @@ codeunit 50106 "Debug something"
     begin
     end;
     
-    [EventSubscriber(ObjectType::Codeunit, 40, 'OnAfterLogInStart', '', false, false)]
+    [EventSubscriber(ObjectType::Codeunit, codeunit::LogInManagement, 'OnAfterLogInStart', '', false, false)]
     local procedure StartSillyLoop();
     var
         i: Integer;

@@ -1,6 +1,7 @@
 codeunit 50121 "ShowNotificationOnRoleCenter"
 {
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::ApplicationManagement, 'OnRoleCenterOpen', '', true, true)]
+
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Conf./Personalization Mgt.", 'OnRoleCenterOpen', '', true, true)]
     local procedure ShowJustSomeNotification()
     var
         myNotification: Notification;
@@ -11,11 +12,11 @@ codeunit 50121 "ShowNotificationOnRoleCenter"
 
         myNotification.Id := GetNotificationId();
         myNotification.Message := 'Just Some Notification';
-        myNotification.AddAction('Some Action',Codeunit::ShowNotificationOnRoleCenter,'SomeAction');
+        myNotification.AddAction('Some Action', Codeunit::ShowNotificationOnRoleCenter, 'SomeAction');
         myNotification.Send();
     end;
 
-    procedure SomeAction(theNotification: Notification)    
+    procedure SomeAction(theNotification: Notification)
     begin
         Message('you pressed "Some Action"');
     end;
@@ -25,7 +26,7 @@ codeunit 50121 "ShowNotificationOnRoleCenter"
         exit('f8c7b763-fde2-4a2c-92d7-176ba69d9dcb');
     end;
 
-    [EventSubscriber(ObjectType::Page, Page:: "My Notifications", 'OnInitializingNotificationWithDefaultState', '', false, false)]
+    [EventSubscriber(ObjectType::Page, Page::"My Notifications", 'OnInitializingNotificationWithDefaultState', '', false, false)]
     local procedure "MyNotifications.OnInitializingNotificationWithDefaultState"()
     var
         MyNotifications: Record "My Notifications";
@@ -36,5 +37,5 @@ codeunit 50121 "ShowNotificationOnRoleCenter"
                                                 NotificationName,
                                                 DescriptionText,
                                                 Database::"Just Some Table");
-    end;   
+    end;
 }

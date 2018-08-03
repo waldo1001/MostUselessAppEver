@@ -3,11 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Most Useless App Ever">
     <body>
       <group id="body">
-        <trans-unit id="Table 1055183171 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>MyField</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales&amp;Receivables - Field MyField - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 3043990830 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -28,6 +23,96 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Completely Useless table - Field Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 2767777121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 2130080504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 1492383887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 1661292910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4056402490 - Field 4180432052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LookUpField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeOtherTable - Field LookUpField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 2272340397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 1856803051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field SomeCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 2772140846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LookUpFlowField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field LookUpFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 3661844829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CountFlowField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field CountFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 211490861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExistFlowField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field ExistFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 3191673797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SumFlowField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field SumFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 2188867347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SumFlowField2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field SumFlowField2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4092425771 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRS SomeTableForPrefixing CRS - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4092425771 - Field 783256712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OtherrField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRS SomeTableForPrefixing CRS - Field OtherrField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2294027 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MyField</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -43,45 +128,60 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field My Field with a weird / Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1055183171 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales&amp;Receivables - Field MyField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
           <source>Notification Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
         </trans-unit>
         <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 1314462029" size-unit="char" translate="no" xml:space="preserve">
           <source>Description Text</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
         </trans-unit>
         <trans-unit id="Codeunit 2770123433 - Method 999142918 - NamedType 995150" size-unit="char" translate="no" xml:space="preserve">
           <source>Some Service Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Procedure AddSetup_OnRegisterServiceConnection - NamedType ServiceName</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Method AddSetup_OnRegisterServiceConnection - NamedType ServiceName</note>
         </trans-unit>
         <trans-unit id="Codeunit 2770123433 - Method 999142918 - NamedType 2733904281" size-unit="char" translate="no" xml:space="preserve">
           <source>Some Host Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Procedure AddSetup_OnRegisterServiceConnection - NamedType HostName</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Method AddSetup_OnRegisterServiceConnection - NamedType HostName</note>
         </trans-unit>
         <trans-unit id="Codeunit 268642636 - Method 2414515418 - NamedType 1819989136" size-unit="char" translate="yes" xml:space="preserve">
           <source>Are you sure?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Procedure ConfirmCreatePallet - NamedType AreYouSure</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Method ConfirmCreatePallet - NamedType AreYouSure</note>
         </trans-unit>
         <trans-unit id="Codeunit 268642636 - Method 2182258215 - NamedType 3878926381" size-unit="char" translate="yes" xml:space="preserve">
           <source>Success!</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Procedure AckCreatePallet - NamedType Success</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Method AckCreatePallet - NamedType Success</note>
         </trans-unit>
         <trans-unit id="Codeunit 676847404 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
           <source>Just Some Notification</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
         </trans-unit>
         <trans-unit id="Codeunit 676847404 - Method 3565230117 - NamedType 1314462029" size-unit="char" translate="no" xml:space="preserve">
           <source>Just Some Notification</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+        </trans-unit>
+        <trans-unit id="Page 1376658080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Some Entry Table List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Entry Table List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4237484883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeTableWithFlowFields List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeTableWithFlowFields List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SomeWizard</source>
@@ -182,6 +282,16 @@
           <source>Create Pallet</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Action CreatePallet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 818349453 - Field 2608731682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CRS Some Name CRS - Field CRS SomeField CRS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 818349453 - Field 4209440710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeOtherField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CRS Some Name CRS - Field CRS SomeOtherField CRS - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2336385525 - Field 2765746434 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just Some Field</source>

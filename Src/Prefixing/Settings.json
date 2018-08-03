@@ -1,0 +1,7 @@
+{
+    "CRS.ObjectNamePrefix": "CRS ",
+    "CRS.RemovePrefixFromFilename": false,
+    "CRS.ObjectNameSuffix": " CRS",
+    "CRS.RemoveSuffixFromFilename": false,
+    
+}

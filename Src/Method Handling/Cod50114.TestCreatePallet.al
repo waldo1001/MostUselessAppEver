@@ -35,13 +35,13 @@ codeunit 50114 "TestCreatePallet"
     end;    
 
     [MessageHandler]
-    local procedure myMessageHandler(Message: Text[1024])
+    procedure myMessageHandler(Message: Text[1024])
     begin
         if not message.StartsWith('New method to handle cr') then error('wrong message');
     end;
 
     [ConfirmHandler]
-    local procedure myConfirmHandler(Question : Text[1024]; VAR Reply : Boolean)
+    procedure myConfirmHandler(Question : Text[1024]; VAR Reply : Boolean)
     begin
         if not Question.StartsWith('Are') then error('wrong message');
         Reply := true;
