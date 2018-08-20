@@ -1,6 +1,6 @@
-profile "MyProfile" {
-    RoleCenter = "Order Processor Role Center";
+profile "MyProfile"
+{
+    RoleCenter = "Some Role Center";
     Description = 'Some Profile';
     Customizations = SomeCustomizationtherewhere;
 }
-
