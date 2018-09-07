@@ -7,12 +7,10 @@
 			"name": "Local server",
 			"server": "http://devpreview",
 			"serverInstance": "NAV",
-			"tenant": "default",
+			"tenant": "",
 			"authentication": "UserPassword",
-			"startupObjectId": 50100,
-			"startupObjectType": "Page",
 			"schemaUpdateMode": "Synchronize",
-			"breakOnError": false,
+			"breakOnError": true,
 			"breakOnRecordWrite": false
 		}
 	]

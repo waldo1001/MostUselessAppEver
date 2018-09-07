@@ -1,13 +1,13 @@
 table 50108 "SomeTableWithFlowFields"
 {
-    DataClassification = ToBeClassified;
+    DataClassification = CustomerContent;
 
     fields
     {
         field(1; "Entry No."; Integer)
         {
             Caption = 'Entry No.';
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
         field(2; "LookUpFlowField"; Code[50])
         {

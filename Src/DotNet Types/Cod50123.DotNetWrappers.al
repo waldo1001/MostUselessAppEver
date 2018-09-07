@@ -21,7 +21,7 @@ codeunit 50123 "DotNetWrappers"
 
         myText := myText.ToUpper();
 
-        Message(myText);
+        //Message(myText);
 
     end;
 
@@ -38,7 +38,7 @@ codeunit 50123 "DotNetWrappers"
         if customerNames.Contains('waldo') then
             Message('waldo is in the list and has index %1', customerNames.IndexOf('waldo'));
 
-        Message('Name at index 1: ' + customerNames.Get(1));
+        //Message('Name at index 1: ' + customerNames.Get(1));
     end;
 
     procedure CountCharactersInCustomerName(customerName: Text)
@@ -48,7 +48,7 @@ codeunit 50123 "DotNetWrappers"
         counter: Dictionary of [Char, Integer];
         currChar: char;
         currValue: Integer;
-        
+
     begin
         Clear(counter);
 
@@ -61,7 +61,7 @@ codeunit 50123 "DotNetWrappers"
 
         foreach currChar in counter.Keys() do begin
             counter.Get(currChar, currValue);
-            message('%1 - %2', currChar, currValue);
+            //message('%1 - %2', currChar, currValue);
         end;
     end;
 
@@ -69,7 +69,7 @@ codeunit 50123 "DotNetWrappers"
     var
         name: text;
     begin
-        foreach name in customerNames do
-            Message(name);
+        //foreach name in customerNames do
+        //    Message(name);
     end;
 }

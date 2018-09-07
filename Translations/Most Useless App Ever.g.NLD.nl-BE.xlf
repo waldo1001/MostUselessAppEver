@@ -108,7 +108,7 @@
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 3647570164 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Let's go!</source>
-          <target state="needs-review-translation" state-qualifier="x-microsoft-exact-match">Aan de slag!</target>
+          <target state="translated" state-qualifier="x-microsoft-exact-match">Aan de slag!</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Let's go! - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 727926705 - Property 2879900210" translate="yes" xml:space="preserve">

@@ -11,6 +11,16 @@
             "id": "PTE0002",
             "action": "None",
             "justification": "License issues with 'PerTenantExtensionCop'"
+        },
+        {
+            "id": "AW0005",
+            "action": "None",
+            "justification": "Actions do not have to have images in a useless app"
+        },
+        {
+            "id": "AA0074",
+            "action": "None",
+            "justification": "Lables do not need suffixes in a useless app"
         }
     ]
 }

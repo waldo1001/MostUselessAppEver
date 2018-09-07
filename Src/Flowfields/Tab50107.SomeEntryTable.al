@@ -1,34 +1,34 @@
 table 50107 "Some Entry Table"
 {
-    DataClassification = ToBeClassified;
+    DataClassification = CustomerContent;
     DrillDownPageId = "Some Entry Table List";
 
     fields
     {
         field(1; "Entry No."; Integer)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             AutoIncrement = true;
         }
         field(2; "Quantity"; Decimal)
         {
             Caption = 'Quantity';
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
         field(3; "Number"; Integer)
         {
             Caption = 'Number';
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
         field(4; "SomeCode"; Code[50])
         {
             Caption = 'SomeCode';
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
         field(5; "MyField"; BigInteger)
         {
             Caption = 'MyField';
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
     }
 

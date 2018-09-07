@@ -8,5 +8,17 @@ codeunit 50116 "InstallDataPackage"
     begin
         if JustSomeTable.IsEmpty() then
             navapp.LoadPackageData(Database::"Just Some Table");
+
+        DoSomethingWithModuleInfo();
     end;
+
+    local procedure DoSomethingWithModuleInfo()
+    var
+        myModuleInfo: ModuleInfo;
+    begin
+        NavApp.GetCurrentModuleInfo(myModuleInfo);
+
+    end;
+
+
 }

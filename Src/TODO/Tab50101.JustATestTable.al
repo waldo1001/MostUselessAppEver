@@ -1,23 +1,23 @@
 table 50101 "JustATestTable"
 {
-    DataClassification = ToBeClassified;
+    DataClassification = CustomerContent;
 
     fields
     {
         field(1; MyField; Integer)
         {
 
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
         field(10; MyField2; Integer)
         {
 
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
         field(200; "My Field with a weird / Name"; Integer)
         {
 
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
 
     }

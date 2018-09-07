@@ -1,16 +1,16 @@
 table 50102 "Sales&Receivables"
 {
-    DataClassification = ToBeClassified;
-    
+    DataClassification = CustomerContent;
+
     fields
     {
-        field(1;"MyField"; Integer)
+        field(1; "MyField"; Integer)
         {
-            
-            DataClassification = ToBeClassified;
+            ObsoleteState = Pending;
+            DataClassification = CustomerContent;
         }
     }
-    
+
     keys
     {
         key(PK; "MyField")
@@ -18,5 +18,5 @@ table 50102 "Sales&Receivables"
             Clustered = true;
         }
     }
-    
+
 }

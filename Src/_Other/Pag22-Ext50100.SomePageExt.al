@@ -2,7 +2,7 @@ pageextension 50100 "SomePageExt" extends "Customer List" //22
 {
     layout
     {
-        addfirst(Content)
+        addfirst(Control1)
         {
             field("Telex No."; "Telex No.")
             {

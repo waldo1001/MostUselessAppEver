@@ -1,16 +1,16 @@
 table 50104 "SomeOtherTable"
 {
-    DataClassification = ToBeClassified;
-    
+    DataClassification = CustomerContent;
+
     fields
     {
-        field(1;LookUpField; Integer)
+        field(1; LookUpField; Integer)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             TableRelation = SomeTable.SomeField1;
         }
     }
-    
+
     keys
     {
         key(PK; LookUpField)
@@ -18,5 +18,5 @@ table 50104 "SomeOtherTable"
             Clustered = true;
         }
     }
-        
+
 }

@@ -49,11 +49,6 @@ page 50107 "Some Role Center"
                 AccessByPermission = TableData "Report Inbox" = R;
                 ApplicationArea = Suite;
             }
-            part(Control1903012608; "Connect Online")
-            {
-                ApplicationArea = Basic, Suite;
-                Visible = false;
-            }
             systempart(Control1901377608; MyNotes)
             {
                 ApplicationArea = Basic, Suite;

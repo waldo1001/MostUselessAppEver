@@ -13,6 +13,6 @@
     "CRS.RemovePrefixFromFilename": true,
     //"CRS.ObjectNameSuffix": " CRS",
     "CRS.RemoveSuffixFromFilename": true,
-    "CRS.ExtensionObjectNamePattern": "<Prefix><BaseNameShort>.<ObjectTypeShort>Ext",
+    "CRS.ExtensionObjectNamePattern": "<BaseNameShort>.<ObjectTypeShort>Ext",
     "CRS.DisableDefaultAlSnippets": true
 }
