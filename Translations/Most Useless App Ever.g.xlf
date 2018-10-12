@@ -13,6 +13,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 2757394829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1656136372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 3464043334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field created_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1627817627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field user - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1405163793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 372531027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field html_url - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3046260244 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -172,6 +207,111 @@
           <source>Just Some Notification</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeWizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1121962313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control StandardBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 300852202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control FinishedBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1033154962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to SomeWizard Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Welcome to SomeWizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step1 - Replace this text with some instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 3647570164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Let's go!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Let's go! - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 727926705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 727926705 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step1 - Replace this text with some more instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2279239964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2279239964 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step2 - Replace this text with some instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1365623322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1365623322 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Step3 - Replace this text with some instructions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 1546979963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>That's it!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control That's it! - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2641016556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Control 2641016556 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To save this setup, choose Finish.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Action 2438272767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Action 914282563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Action 3259912055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 482740450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AL Issues</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALIssueList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 482740450 - Action 2151166085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Issues</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALIssueList - Action RefreshALIssueList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1376658080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Some Entry Table List</source>
@@ -1132,101 +1272,6 @@
           <source>Find all entries and documents that exist for the document number and posting date on the selected entry or document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Navi&amp;gate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SomeWizard</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1121962313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control StandardBanner - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 300852202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control FinishedBanner - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1033154962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Welcome to SomeWizard Setup</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Welcome to SomeWizard - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step1 - Replace this text with some instructions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property InstructionalText</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 3647570164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Let's go!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Let's go! - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 727926705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 727926705 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step1 - Replace this text with some more instructions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property InstructionalText</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 2279239964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 2279239964 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step2 - Replace this text with some instructions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property InstructionalText</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1365623322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1365623322 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Step3 - Replace this text with some instructions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property InstructionalText</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1546979963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>That's it!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control That's it! - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 2641016556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 2641016556 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To save this setup, choose Finish.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property InstructionalText</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Action 2438272767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Back</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionBack - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Action 914282563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Next</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionNext - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3519257680 - Action 3259912055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Finish</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionFinish - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 953917811 - Action 2391746896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trigger Event</source>

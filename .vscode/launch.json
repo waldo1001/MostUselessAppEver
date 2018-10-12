@@ -7,10 +7,13 @@
             "name": "Your own server",
             "server": "http://bcdaily",
             "serverInstance": "NAV",
+            "tenant": "default",
             "authentication": "UserPassword",
 			"schemaUpdateMode": "Synchronize",
             "breakOnError": true,
-			"breakOnRecordWrite": false
+            "breakOnRecordWrite": true,
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page"
         }
     ]
 }
