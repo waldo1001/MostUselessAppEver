@@ -1,17 +1,16 @@
 {
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "al",
-			"request": "launch",
-			"name": "Local server",
-			"server": "http://devpreview",
-			"serverInstance": "NAV",
-			"tenant": "",
-			"authentication": "UserPassword",
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://bcdaily",
+            "serverInstance": "NAV",
+            "authentication": "UserPassword",
 			"schemaUpdateMode": "Synchronize",
-			"breakOnError": true,
+            "breakOnError": true,
 			"breakOnRecordWrite": false
-		}
-	]
+        }
+    ]
 }
