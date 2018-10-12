@@ -6,13 +6,13 @@
         "${UICop}"
     ],
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
-    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.OnSaveAlFileAction": "DoNothing",
     "editor.formatOnSave": false,
     "CRS.AlSubFolderName": "None",
     //"CRS.ObjectNamePrefix": "CRS ",
     "CRS.RemovePrefixFromFilename": true,
     //"CRS.ObjectNameSuffix": " CRS",
     "CRS.RemoveSuffixFromFilename": true,
-    "CRS.ExtensionObjectNamePattern": "<BaseNameShort>.<ObjectTypeShort>Ext",
-    "CRS.DisableDefaultAlSnippets": true
+    "CRS.ExtensionObjectNamePattern": "<BaseNameShort>Ext"
+
 }
