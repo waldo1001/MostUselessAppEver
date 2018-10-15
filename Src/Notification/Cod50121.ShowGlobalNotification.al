@@ -1,7 +1,7 @@
-codeunit 50121 "ShowNotificationOnRoleCenter"
+codeunit 50118 "ShowGlobalNotification"
 {
 
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Conf./Personalization Mgt.", 'OnRoleCenterOpen', '', true, true)]
+    //[EventSubscriber(ObjectType::Codeunit, Codeunit::"Conf./Personalization Mgt.", 'OnRoleCenterOpen', '', true, true)]
     local procedure ShowJustSomeNotification()
     var
         JustSomeTable: Record "Just Some Table";
@@ -11,9 +11,9 @@ codeunit 50121 "ShowNotificationOnRoleCenter"
         IF NOT MyNotifications.IsEnabledForRecord(GetNotificationId(), JustSomeTable) THEN EXIT;
 
         myNotification.Id := GetNotificationId();
-        myNotification.Scope(NotificationScope::LocalScope);
-        myNotification.Message := 'Just Some Notification';
-        myNotification.AddAction('Some Action', Codeunit::ShowNotificationOnRoleCenter, 'SomeAction');
+        myNotification.Scope(NotificationScope::GlobalScope);
+        myNotification.Message := 'Just Some Global Notification';
+        myNotification.AddAction('Some Global Action', Codeunit::ShowNotificationOnRoleCenter, 'SomeAction');
         myNotification.Send();
     end;
 
@@ -24,7 +24,7 @@ codeunit 50121 "ShowNotificationOnRoleCenter"
 
     local procedure GetNotificationId(): Guid
     begin
-        exit('f8c7b763-fde2-4a2c-92d7-176ba69d9dcb');
+        exit('5c0976a1-ae31-4e69-b50f-a648f6c92bfa');
     end;
 
     [EventSubscriber(ObjectType::Page, Page::"My Notifications", 'OnInitializingNotificationWithDefaultState', '', false, false)]
