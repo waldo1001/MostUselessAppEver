@@ -11,10 +11,16 @@
   "url": "",
   "logo": ".\\images\\icon.png",
   "capabilities": [],
-  "dependencies": [ ],
+  "dependencies": [
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "BaseApp",
+      "version": "14.0.0.0"
+    }
+   ],
   "screenshots": [],
   "platform": "13.0.0.0",
-  "application": "13.0.0.0",
   "idRange": {
     "from": 50100,
     "to": 50149
