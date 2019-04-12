@@ -6,6 +6,8 @@
 -  ALT+Left/Right: Back/Forward
 -  ALT+F12: Peek Definition
 -  SHIFT+f12: find references
+-  CTRL+.: quick search symbol
+
 
 ## Editing
 - ALT+SHIFT+Up: Copy Line (also on multiple lines)
