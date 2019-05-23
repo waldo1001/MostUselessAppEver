@@ -9,11 +9,15 @@
             "serverInstance": "NAV",
             "tenant": "default",
             "authentication": "UserPassword",
-			"schemaUpdateMode": "Synchronize",
+            "schemaUpdateMode": "ForceSync",
             "breakOnError": true,
-            "breakOnRecordWrite": true,
-            //"startupObjectId": 22,
-            //"startupObjectType": "Page"
+            "breakOnRecordWrite": false,
+            "skipSystemTriggers": false,
+            // "launchBrowser": false,
+            // "breakOnRecordWrite": true,
+            "startupObjectId": 22,
+            "startupObjectType": "Page"
+
         }
     ]
 }

@@ -1,0 +1,16 @@
+### Fuck Off as a Service
+GET https://www.foaas.com/operations
+Content-Type: application/json
+
+### Fuck Off as a Service
+GET https://www.foaas.com/zero/waldo
+Content-Type: application/json
+
+
+### Fuck Off as a Service
+GET https://www.foaas.com/anyway/Dynex/waldo
+Content-Type: application/json
+
+### Fuck Off as a Service
+GET https://www.foaas.com/immensity/waldo
+Content-Type: application/json

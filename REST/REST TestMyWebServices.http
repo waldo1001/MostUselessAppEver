@@ -9,7 +9,7 @@ Authorization: Basic waldo waldo1234
 ### SOAP - Codeunit without parameter
 @Method1 = TheMethod
 
-POST http://devsrv:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService HTTP/1.1
+POST http://bconprem:7047/NAV/WS/CRONUS%20International%20Ltd./Codeunit/MyCodeunitWebService HTTP/1.1
 Authorization: Basic waldo waldo1234
 Content-Type: text/xml
 SOAPAction: urn:microsoft-dynamics-schemas/codeunit/MyCodeunitWebService:{{Method1}}

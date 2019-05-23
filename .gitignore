@@ -1,4 +1,6 @@
 *.app
 *.zip
+.alcache
+rad.json
 
 

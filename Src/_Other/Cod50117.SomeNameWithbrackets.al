@@ -8,4 +8,11 @@ codeunit 50117 "Some Name (With brackets)"
         if mytext.ToUpper().EndsWith('TEXT') then
             message('true');
     end;
+
+    local procedure MyProcedure()
+    var
+        SalesLine: Record "Sales Line";
+    begin
+        //SalesLine.Gilbert := false;
+    end;
 }

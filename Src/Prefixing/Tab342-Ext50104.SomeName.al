@@ -1,4 +1,4 @@
-tableextension 50104 "CRS Some Name CRS" extends "Acc. Sched. Cell Value" //342
+tableextension 50104 "AccSchedCellValueExt" extends "Acc. Sched. Cell Value" //342
 {
     fields
     {

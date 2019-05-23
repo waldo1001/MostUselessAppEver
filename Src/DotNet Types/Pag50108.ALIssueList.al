@@ -4,6 +4,8 @@ page 50108 "ALIssueList"
     SourceTable = ALIssue;
     Caption = 'AL Issues';
     SourceTableView = order(descending);
+    UsageCategory = Lists;
+    ApplicationArea = All;
 
     layout
     {

@@ -138,12 +138,12 @@
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 1365623322 - Property 1968111052" translate="yes" xml:space="preserve">
           <source>Step3 - Replace this text with some instructions.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Step3 - Vervangen deze tekst met sommige instructies.</target>
+          <target state="translated">Stap 3 - Vervang deze tekst door enkele instructies.</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 1546979963 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>That's it!</source>
-          <target state="needs-review-translation" state-qualifier="x-microsoft-exact-match">Dat is alles!</target>
+          <target state="translated" state-qualifier="x-microsoft-exact-match">Dat is alles!</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control That's it! - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 2641016556 - Property 2879900210" translate="yes" xml:space="preserve">
@@ -158,42 +158,42 @@
         </trans-unit>
         <trans-unit id="Page 3519257680 - Action 2438272767 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Back</source>
-          <target state="needs-review-translation" state-qualifier="x-microsoft-exact-match">Achterwaarts</target>
+          <target state="translated">Terug</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionBack - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Action 914282563 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Next</source>
-          <target state="needs-review-translation" state-qualifier="x-microsoft-exact-match">Volgende</target>
+          <target state="translated" state-qualifier="x-microsoft-exact-match">Volgende</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionNext - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Action 3259912055 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Finish</source>
-          <target state="needs-review-translation" state-qualifier="x-microsoft-exact-match">Voltooien</target>
+          <target state="translated" state-qualifier="x-microsoft-exact-match">Voltooien</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionFinish - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1301162578 - Action 1861714008 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Create Pallet</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pallet maken</target>
+          <target state="translated" state-qualifier="mt-suggestion">Pallet maken</target>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Action CreatePallet - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2336385525 - Field 2765746434 - Property 3830149458" translate="yes" xml:space="preserve">
           <source>Just Some Field</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Een bepaalde Sommige Veld</target>
+          <target state="translated">Zomaar een veld</target>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just Some field - Property caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2336385525 - Field 2674474782 - Property 3830149458" translate="yes" xml:space="preserve">
           <source>Just Some other Field</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Een bepaalde Enkele andere Veld</target>
+          <target state="translated">Gewoon een ander veld</target>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just Some other field - Property caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2336385525 - Field 3876164035 - Property 3830149458" translate="yes" xml:space="preserve">
           <source>Just a third field</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als een derde veld</target>
+          <target state="translated">Gewoon een derde veld</target>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just third field - Property caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2336385525 - Field 3320410323 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Fourth field</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vierde veld</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vierde veld</target>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field A Fourth field - Property Caption</note>
         </trans-unit>
       </group>

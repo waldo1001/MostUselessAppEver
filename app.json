@@ -30,5 +30,5 @@
     "TranslationFile"
   ],
   "target": "Internal",
-  "runtime": "3.0"
+  "runtime": "2.4"
 }

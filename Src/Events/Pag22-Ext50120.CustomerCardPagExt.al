@@ -1,4 +1,4 @@
-pageextension 50120 "CustomerCard.PagExt" extends "Customer Card" //22
+pageextension 50120 "CustomerCardExt" extends "Customer Card" //22
 {
     layout
     {

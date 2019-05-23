@@ -1,0 +1,14 @@
+### QOTD
+GET https://favqs.com/api/qotd
+Authorization: Token token=d3a3f64da404baca46ec64f5877b9912  
+
+### Quote List
+GET https://favqs.com/api/quotes
+Content-Type: application/json
+Authorization: Token token=d3a3f64da404baca46ec64f5877b9912 
+
+### Get Funny quotes
+GET https://favqs.com/api/quotes/?filter=funny&type=tag
+Content-Type: application/json
+Authorization: Token token=d3a3f64da404baca46ec64f5877b9912
+

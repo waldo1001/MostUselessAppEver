@@ -1,0 +1,28 @@
+variables:
+  appversion: '1.0.[yyyyww].*'
+
+steps:
+- task: NAVMgtDockerStart@1
+  inputs:
+    docker_image: 'bcinsider.azurecr.io/bcsandbox-master:14.0.28630.0-al'
+    docker_pull: true
+
+- task: NAVMgtDockerWait@1
+  inputs:
+    search_string: 'Ready for connections!'
+
+- task: NAVMgtLicenseImport@1
+  displayName: 'ALOPS License Import'
+  inputs:
+    usedocker: true
+    license_path: $(license)
+
+- task: NAVMgtAppCompiler@2
+  inputs:
+    usedocker: true
+    nav_app_version: $(appversion)
+
+- task: NAVMgtDockerRemove@1
+  displayName: 'Remove Docker Container'
+  enabled: true
+  condition: always()

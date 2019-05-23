@@ -5,6 +5,9 @@
         "${AppSourceCop}",
         "${UICop}"
     ],
+    "al.enableCodeActions": true,
+    "al.browser": "Chrome",
+    "al.incognito": false,
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
     "CRS.OnSaveAlFileAction": "DoNothing",
     "editor.formatOnSave": false,
@@ -13,6 +16,7 @@
     "CRS.RemovePrefixFromFilename": true,
     //"CRS.ObjectNameSuffix": " CRS",
     "CRS.RemoveSuffixFromFilename": true,
-    "CRS.ExtensionObjectNamePattern": "<BaseNameShort>Ext"
+    "CRS.ExtensionObjectNamePattern": "<BaseNameShort>Ext",
+    "CRS.RenameWithGit": true
 
 }

@@ -1,4 +1,4 @@
-tableextension 50101 "OverloadFunctionOnVendor" extends Vendor //23
+tableextension 50101 "VendorExt" extends Vendor //23
 {
     procedure CreateAndShowNewInvoice(SomeMoreInfo: Text)
     begin

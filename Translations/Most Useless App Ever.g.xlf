@@ -83,6 +83,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SomeOtherTable - Field LookUpField - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2852411189 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableThatUsesFlowfield - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2852411189 - Field 3474358269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JustAField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableThatUsesFlowfield - Field JustAField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1872802306 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -197,6 +207,16 @@
           <source>Success!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Method AckCreatePallet - NamedType Success</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 526037439 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowGlobalNotification - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 526037439 - Method 3565230117 - NamedType 1314462029" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowGlobalNotification - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
         </trans-unit>
         <trans-unit id="Codeunit 676847404 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
           <source>Just Some Notification</source>
@@ -1273,70 +1293,90 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Navi&amp;gate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 953917811 - Action 2391746896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1496902179 - Action 2391746896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trigger Event</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCard.PagExt - Action TriggerEvent - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Action TriggerEvent - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1301162578 - Action 1861714008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Pallet</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Action CreatePallet - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 818349453 - Field 2608731682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 971914333 - Field 3119386769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waldo App Area</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ApplicationAreaSetupExt - Field Waldo App Area - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 125480607 - Field 3474358269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JustAField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemLedgerEntryExt - Field JustAField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2780128723 - Field 3554030844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waldos Field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustLedgerEntryExt - Field Waldos Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 556756296 - Field 2608731682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SomeField</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CRS Some Name CRS - Field CRS SomeField CRS - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AccSchedCellValueExt - Field CRS SomeField CRS - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 818349453 - Field 4209440710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 556756296 - Field 4209440710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SomeOtherField</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CRS Some Name CRS - Field CRS SomeOtherField CRS - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AccSchedCellValueExt - Field CRS SomeOtherField CRS - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - Field 2765746434 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 2765746434 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just Some Field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - Field Just Some field - Property caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just Some field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - Field 2674474782 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 2674474782 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just Some other Field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - Field Just Some other field - Property caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just Some other field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - Field 3876164035 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 3876164035 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just a third field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - Field Just third field - Property caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just third field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - Field 3320410323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 3320410323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fourth field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - Field A Fourth field - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field A Fourth field - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - Field 1532687237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 1532687237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>My Fifth field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - Field My Fifth field - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field My Fifth field - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - NamedType 1624856017" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - NamedType 1624856017" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just a label</source>
           <note from="Developer" annotates="general" priority="2">Used in code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - NamedType JustALabel</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - NamedType 936442079" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - NamedType 936442079" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just a label 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - NamedType JustALabel2</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel2</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - NamedType 1574138696" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - NamedType 1574138696" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just a label 3</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - NamedType JustALabel3</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel3</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1326055256 - NamedType 467654485" maxwidth="111" size-unit="char" translate="no" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - NamedType 467654485" maxwidth="111" size-unit="char" translate="no" xml:space="preserve">
           <source>Just a label 4</source>
           <note from="Developer" annotates="general" priority="2">Take this into account</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer.TabExt - NamedType JustALabel4</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel4</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3461155121 - Field 1387653341 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gilbert</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesLineExt - Field Gilbert - Property Caption</note>
         </trans-unit>
       </group>
     </body>
