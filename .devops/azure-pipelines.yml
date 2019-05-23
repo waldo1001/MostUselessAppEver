@@ -6,6 +6,7 @@ steps:
   inputs:
     docker_image: 'bcinsider.azurecr.io/bcsandbox-master:14.0.28630.0-al'
     docker_pull: true
+    docker_login: Insider Docker Registry
 
 - task: NAVMgtDockerWait@1
   inputs:
