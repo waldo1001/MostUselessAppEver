@@ -1,4 +1,4 @@
-codeunit 50510 "TST Assert"
+codeunit 50133 "TST Assert"
 {
     trigger OnRun();
     begin
