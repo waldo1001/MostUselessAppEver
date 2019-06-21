@@ -35,7 +35,7 @@ steps:
   inputs:
     usedocker: true
     nav_app_version: $(AppVersion)
-    failed_on_warnings: true    
+    failed_on_warnings: false    
 
 - task: ALOpsAppPublish@1
   inputs:
