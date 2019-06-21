@@ -9,7 +9,7 @@
     "al.browser": "Chrome",
     "al.incognito": false,
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
-    "CRS.OnSaveAlFileAction": "DoNothing",
+    "CRS.OnSaveAlFileAction": "Rename",
     "editor.formatOnSave": false,
     "CRS.AlSubFolderName": "None",
     //"CRS.ObjectNamePrefix": "CRS ",

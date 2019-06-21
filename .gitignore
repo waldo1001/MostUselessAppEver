@@ -2,5 +2,6 @@
 *.zip
 .alcache
 rad.json
+Translations/*.g.xlf
 
 
