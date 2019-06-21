@@ -12,9 +12,7 @@
     "CRS.OnSaveAlFileAction": "Rename",
     "editor.formatOnSave": false,
     "CRS.AlSubFolderName": "None",
-    //"CRS.ObjectNamePrefix": "CRS ",
     "CRS.RemovePrefixFromFilename": true,
-    //"CRS.ObjectNameSuffix": " CRS",
     "CRS.RemoveSuffixFromFilename": true,
     "CRS.ExtensionObjectNamePattern": "<BaseNameShort>Ext",
     "CRS.RenameWithGit": true
