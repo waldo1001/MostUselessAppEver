@@ -29,7 +29,7 @@ steps:
 - task: ALOpsLicenseImport@1
   inputs:
     usedocker: true
-    license_path: $(bc_license)
+    license_path: $(bc.license)
     
 - task: ALOpsAppCompiler@1
   inputs:
