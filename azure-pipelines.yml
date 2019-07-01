@@ -11,7 +11,7 @@ variables:
   value: 'C:\vsts-agent-azure\license.flf'
 
 pool:
-  name: ALOPS-WARP10
+  name: WaldoHetzner
 
 steps:
 - checkout: self
