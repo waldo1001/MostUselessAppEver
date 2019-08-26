@@ -1,0 +1,27 @@
+{
+  "id": "b528ee70-8b63-4bd8-967c-402f9476b428",
+  "name": "Most Useless App Ever",
+  "publisher": "waldo",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": ".\\images\\icon.png",
+  "capabilities": [],
+  "dependencies": [
+   ],
+  "screenshots": [],
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "showMyCode": true,
+  "features": [
+    "TranslationFile"
+  ],
+  "target": "Internal",
+  "runtime": "3.0"
+}
