@@ -17,10 +17,22 @@ steps:
 - checkout: self
   clean: true
   
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      $registry = "bcinsider.azurecr.io"
+      $SecretSettings = @{}
+      $SecretSettings.containerRegistryUserName = $(InsiderUsername)
+      $SecretSettings.containerRegistryPassword = $(InsiderPwd)
+      
+      docker login "$registry" -u "$($SecretSettings.containerRegistryUserName)" -p "$($SecretSettings.containerRegistryPassword)"
+    errorActionPreference: 'silentlyContinue'
+
 - task: ALOpsDockerStart@1
   inputs:
     docker_image: '$(dockerimage)'
-    docker_login: 'Insider Docker Registry'
+    # docker_login: 'Insider Docker Registry'
 
 - task: ALOpsDockerWait@1
   inputs:
