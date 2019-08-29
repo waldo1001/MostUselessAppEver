@@ -4,7 +4,7 @@ variables:
 - name: 'AppVersion'
   value: '1.0.[yyyyWW].*'
 - name: 'dockerimage'
-  value: 'mcr.microsoft.com/businesscentral/sandbox'
+  value: 'bcinsider.azurecr.io/bcsandbox-master'
 - name: 'TestFilter'
   value: '50100..50149'
 - name: 'bc_license'
@@ -19,8 +19,8 @@ steps:
   
 - task: ALOpsDockerStart@1
   inputs:
-    docker_image: $(dockerimage)
-    docker_pull: true
+    docker_image: '$(dockerimage)'
+    docker_login: 'Insider Docker Registry'
 
 - task: ALOpsDockerWait@1
   inputs:
