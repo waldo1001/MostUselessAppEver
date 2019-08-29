@@ -4,10 +4,12 @@ pageextension 50100 "CustomerListExt" extends "Customer List" //22
     {
         addfirst(Control1)
         {
-            field("Telex No."; "Telex No.")
+            field("waldoTelex No."; "Telex No.")
             {
                 ApplicationArea = All;
             }
+            field(waldoBalance; "Balance") { }
+            field(waldoContact2; "Contact") { }
         }
     }
 
@@ -15,9 +17,9 @@ pageextension 50100 "CustomerListExt" extends "Customer List" //22
     {
         addfirst("&Customer")
         {
-            action(SomeAction)
+            action(waldoSomeAction)
             {
-                RunObject = page "_Empl. Absences by Cat. Matrix";
+                RunObject = page "Azure AD App Setup Wizard";
             }
         }
     }

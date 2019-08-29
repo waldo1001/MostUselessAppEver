@@ -10,11 +10,18 @@
     "al.incognito": false,
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
     "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.ObjectNamePrefix": "",
     "editor.formatOnSave": false,
     "CRS.AlSubFolderName": "None",
     "CRS.RemovePrefixFromFilename": true,
     "CRS.RemoveSuffixFromFilename": true,
     "CRS.ExtensionObjectNamePattern": "<BaseNameShort>Ext",
-    "CRS.RenameWithGit": true
+    "CRS.RenameWithGit": true,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#391742",
+        "activityBar.background": "#391742",
+        "titleBar.activeForeground": "#ffffff",
+        "activityBar.foreground": "#ffffff"
+    }
 
 }

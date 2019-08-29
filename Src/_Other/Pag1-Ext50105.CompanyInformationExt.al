@@ -14,6 +14,8 @@ pageextension 50105 "CompanyInformationExt" extends "Company Information" //1
                 ExtendedDatatype = URL;
             }
 
+            field("County2"; "County") { }
+
         }
 
     }

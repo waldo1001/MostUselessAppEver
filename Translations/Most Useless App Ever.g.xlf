@@ -173,10 +173,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field My Field with a weird / Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1055183171 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3391461012 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MyField</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales&amp;Receivables - Field MyField - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table waldoSales&amp;Receivables - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3391461012 - Field 2429368604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table waldoSales&amp;Receivables - Field Grid - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
           <source>Notification Name</source>
@@ -227,6 +232,131 @@
           <source>Just Some Notification</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 1562659386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.IsTrue failed. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType IsTrueFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 532616687" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.IsFalse failed. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType IsFalseFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2211677212" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.AreEqual failed. Expected:&lt;%1&gt; (%2). Actual:&lt;%3&gt; (%4). %5.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType AreEqualFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2392101391" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.AreNotEqual failed. Expected any Value except:&lt;%1&gt; (%2). Actual:&lt;%3&gt; (%4). %5.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType AreNotEqualFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 74121247" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.AreNearlyEqual failed. Expected a difference no greater than &lt;%1&gt; between expected Value &lt;%2&gt; and actual Value &lt;%3&gt;. %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType AreNearlyEqualFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 684833932" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.AreNotNearlyEqual failed. Expected a difference greater than &lt;%1&gt; between expected Value &lt;%2&gt; and actual Value &lt;%3&gt;. %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType AreNotNearlyEqualFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 3496231515" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.RecordsAreEqualExceptCertainFields failed. Expected the records to match. Difference found in &lt;%1&gt;. Left Value &lt;%2&gt;, Right Value &lt;%3&gt;. %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType RecordsAreEqualExceptCertainFieldsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2012188716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.Fail failed. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType FailFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 3127846600" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.TableIsEmpty failed. Table &lt;%1&gt; with filter &lt;%2&gt; must not contain records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType TableIsEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 1670575411" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.TableIsNotEmpty failed. Table &lt;%1&gt; with filter &lt;%2&gt; must contain records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType TableIsNotEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2616365470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Known failure: see VSTF Bug #%1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType KnownFailureMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 3932454351" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.Expectederror failed. Expected: %1. Actual: %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType ExpectederrorFailed</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 1584962204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.ExpectederrorCode failed. Expected: %1. Actual: %2. Actual error message: %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType ExpectederrorCodeFailed</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 1071010381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.ExpectedMessage failed. Expected: %1. Actual: %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType ExpectedMessageFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 3892149965" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.RecordCount failed. Expected Number of %1 entries: %2. Actual: %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType RecordCountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 3458570292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equality assertions only support Boolean, Option, Integer, BigInteger, Decimal, Code, Text, Date, DateFormula, Time, Duration, and DateTime Values. Current Value:%1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType UnsupportedTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2698897405" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:RecordNotFound</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType RecordNotFounderrorCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 1117236378" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:RecordExists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType RecordAlreadyExistserrorCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 3990120643" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:NothingInsideFilter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType RecordNothingInsideFiltererrorCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 3941495165" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected error %1 actual %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType AsserterrorMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2242076287" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:PrimRecordNotFound</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType PrimRecordNotFounderrorCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2225570552" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:NoFilter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType NoFiltererrorCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 362220626" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The error has not been thrown.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType errorHasNotBeenThrownErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 2519810258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.TextEndsWith failed. The text &lt;%1&gt; must end with &lt;%2&gt;</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType TextEndsWithErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2973829963 - NamedType 1720085138" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Substring must not be blank.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TST Assert - NamedType TextEndSubstringIsBlankErr</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SomeWizard</source>
@@ -1328,30 +1458,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AccSchedCellValueExt - Field CRS SomeOtherField CRS - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1713901351 - Field 2765746434 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 1412464241 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just Some Field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just Some field - Property caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field waldoJust Some field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1713901351 - Field 2674474782 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 2034589069 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just Some other Field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just Some other field - Property caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field waldoJust Some other field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1713901351 - Field 3876164035 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 1846907068 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just a third field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just third field - Property caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field waldoJust third field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1713901351 - Field 3320410323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 779300364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fourth field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field A Fourth field - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field waldoA Fourth field - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1713901351 - Field 1532687237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 735760126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>My Fifth field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field My Fifth field - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field waldoMy Fifth field - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1713901351 - NamedType 1624856017" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just a label</source>
@@ -1377,6 +1507,16 @@
           <source>Gilbert</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesLineExt - Field Gilbert - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3461155121 - Field 2429368604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesLineExt - Field Grid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3461155121 - Field 994593701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesLineExt - Field page - Property Caption</note>
         </trans-unit>
       </group>
     </body>

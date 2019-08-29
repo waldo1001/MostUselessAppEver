@@ -4,14 +4,14 @@ variables:
 - name: 'AppVersion'
   value: '1.0.[yyyyWW].*'
 - name: 'dockerimage'
-  value: 'bcinsider.azurecr.io/bcsandbox-master'
+  value: 'mcr.microsoft.com/businesscentral/sandbox'
 - name: 'TestFilter'
   value: '50100..50149'
 - name: 'bc_license'
   value: 'C:\vsts-agent-azure\license.flf'
 
 pool:
-  name: Warp10
+  name: WaldoHetzner
 
 steps:
 - checkout: self
@@ -19,17 +19,17 @@ steps:
   
 - task: ALOpsDockerStart@1
   inputs:
-    docker_image: '$(dockerimage)'
-    docker_login: 'Insider Docker Registry'
+    docker_image: $(dockerimage)
+    docker_pull: true
 
 - task: ALOpsDockerWait@1
   inputs:
     search_string: 'Ready for connections!'
 
-# - task: ALOpsLicenseImport@1
-#   inputs:
-#     usedocker: true
-#     license_path: $(bc.license)
+- task: ALOpsLicenseImport@1
+  inputs:
+    usedocker: true
+    license_path: $(bc.license)
     
 - task: ALOpsAppCompiler@1
   inputs:

@@ -3,5 +3,6 @@
 .alcache
 rad.json
 Translations/*.g.xlf
+permissionsAnalyzer.json
 
 

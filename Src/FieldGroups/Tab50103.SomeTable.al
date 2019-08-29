@@ -9,17 +9,17 @@ table 50103 "SomeTable"
             Caption = 'SomeField1';
             DataClassification = CustomerContent;
         }
-        field(2; "SomeField2"; Blob)
+        field(2; SomeField2; Blob)
         {
             Caption = 'SomeField2';
             DataClassification = CustomerContent;
         }
-        field(3; "SomeField3"; Code[10])
+        field(3; SomeField3; Code[10])
         {
             Caption = 'SomeField3';
             DataClassification = CustomerContent;
         }
-        field(4; "SomeField4"; Text[50])
+        field(4; SomeField4; Text[50])
         {
             Caption = 'SomeField4';
             DataClassification = CustomerContent;

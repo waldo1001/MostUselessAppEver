@@ -1,5 +1,6 @@
-codeunit 50117 "Some Name (With brackets)"
+codeunit 50117 "waldoSome Name (With brackets)"
 {
+    
     procedure SomeProc()
     var
         myText: text;

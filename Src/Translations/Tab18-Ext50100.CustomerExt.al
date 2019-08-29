@@ -2,33 +2,33 @@ tableextension 50100 "CustomerExt" extends Customer //18
 {
     fields
     {
-        field(50100; "Just Some field"; Code[10])
+        field(50100; "waldoJust Some field"; Code[10])
         {
             DataClassification = CustomerContent;
             TableRelation = "Just Some Table"."No.";
             caption = 'Just Some Field';
         }
-        field(50101; "Just Some other field"; Code[10])
+        field(50101; "waldoJust Some other field"; Code[10])
         {
             DataClassification = CustomerContent;
             TableRelation = "Just Some Table"."No.";
             caption = 'Just Some other Field';
         }
 
-        field(50102; "Just third field"; Code[10])
+        field(50102; "waldoJust third field"; Code[10])
         {
             DataClassification = CustomerContent;
             TableRelation = "Just Some Table"."No.";
             caption = 'Just a third field';
         }
 
-        field(50103; "A Fourth field"; Blob)
+        field(50103; "waldoA Fourth field"; Blob)
         {
             DataClassification = CustomerContent;
             Caption = 'Fourth field';
         }
 
-        field(50104; "My Fifth field"; Blob)
+        field(50104; "waldoMy Fifth field"; Blob)
         {
             DataClassification = CustomerContent;
             Caption = 'My Fifth field';
@@ -46,6 +46,13 @@ tableextension 50100 "CustomerExt" extends Customer //18
         rec.CreateAndShowNewInvoice('waldo');
 
         rec.City := JustALabel;
+    end;
+
+    procedure ControlPrognoses()
+    var
+        waldoControlPrognosesMeth: Codeunit "waldoControlPrognoses Meth";
+    begin
+        waldoControlPrognosesMeth.ControlPrognoses(Rec);
     end;
 
     var

@@ -1,0 +1,96 @@
+@username = admin
+@passwordonline = Ux0/KTjXtSb4iqVtIZsFso38Bl0BeltKj1TKwDbZbKw=
+@passwordlocal = Ux0/KTjXtSb4iqVtIZsFso38Bl0BeltKj1TKwDbZbKw=
+
+@tenantid = M365B976545.onmicrosoft.com
+@bconline = https://api.businesscentral.dynamics.com/v1.0/{{tenantid}}
+@bclocal = http://bccurrent:7048/NAV
+
+@password = {{passwordlocal}}
+@baseurl = {{bclocal}}
+
+
+##################################################################################
+get {{baseurl}}/api/beta
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+# @name companies
+get {{baseurl}}/api/beta/companies
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+@companyid = {{companies.response.body.$.value[0].id}}
+##################################################################################
+# @name items
+get {{baseurl}}/api/beta/companies({{companyid}})/items?$filter=number eq '1200'
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+@itemid = {{items.response.body.$.value[0].id}}
+##################################################################################
+get {{baseurl}}/api/beta/companies({{companyid}})/items({{itemid}})
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+# @name insertitem
+post {{baseurl}}/api/beta/companies({{companyid}})/items
+Authorization: Basic {{username}} {{password}}
+Content-Type: application/json
+
+{
+    "displayName": "My New Item"
+}
+
+##################################################################################
+@newitemid = {{insertitem.response.body.$.id}}
+##################################################################################
+patch {{baseurl}}/api/beta/companies({{companyid}})/items({{newitemid}})
+Authorization: Basic {{username}} {{password}}
+Content-Type: application/json
+If-Match: *
+
+{
+    "unitCost": 1500
+}
+
+##################################################################################
+delete {{baseurl}}/api/beta/companies({{companyid}})/items({{newitemid}})
+Authorization: Basic {{username}} {{password}}
+If-Match: *
+
+##################################################################################
+# @name salesinvoices
+get {{baseurl}}/api/beta/companies({{companyid}})/salesInvoices
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+@invoiceid = {{salesinvoices.response.body.$.value[0].id}}
+##################################################################################
+
+get {{baseurl}}/api/beta/companies({{companyid}})/salesInvoices({{invoiceid}})/salesInvoiceLines
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+get {{baseurl}}/api/beta/companies({{companyid}})/salesInvoices({{invoiceid}})/?$expand=salesInvoiceLines
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+get {{baseurl}}/api/beta/companies({{companyid}})/items?$filter=number eq '1000'
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+get {{baseurl}}/api/beta/companies({{companyid}})/items(e2e710d9-bd25-4562-9095-6121c5177109)/picture
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+get {{baseurl}}/api/beta/companies({{companyid}})/items(e2e710d9-bd25-4562-9095-6121c5177109)/picture(e2e710d9-bd25-4562-9095-6121c5177109)/content
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+patch {{baseurl}}/api/beta/companies({{companyid}})/picture(619311d1-2f9d-4570-aefe-f33d1113903d)/content
+Authorization: Basic {{username}} {{password}}
+Content-Type: image/png
+If-Match: *
+
+< C:\temp\fiets.png
