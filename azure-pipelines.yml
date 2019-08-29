@@ -4,7 +4,7 @@ variables:
 - name: 'AppVersion'
   value: '1.0.[yyyyWW].*'
 - name: 'dockerimage'
-  value: 'mcr.microsoft.com/businesscentral/sandbox'
+  value: 'bcinsider.azurecr.io/bcsandbox-master'
 - name: 'TestFilter'
   value: '50100..50149'
 - name: 'bc_license'
