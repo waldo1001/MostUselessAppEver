@@ -40,7 +40,7 @@ codeunit 50110 MyNotifications
 
     local procedure GetMyNotificationID(): Guid
     begin
-        EXIT('fbaf8452-b094-41c3-9972-0d9abe1bafa6');
+        EXIT('f8551282-55a9-4624-8880-df89589c4a9f');
     end;
 
     [EventSubscriber(ObjectType::Page, Page::"My Notifications", 'OnInitializingNotificationWithDefaultState', '', false, false)]

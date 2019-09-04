@@ -12,7 +12,6 @@
             "schemaUpdateMode": "ForceSync",
             "breakOnError": true,
             "breakOnRecordWrite": false,
-            "skipSystemTriggers": false,
             // "launchBrowser": false,
             // "breakOnRecordWrite": true,
             "startupObjectId": 22,
