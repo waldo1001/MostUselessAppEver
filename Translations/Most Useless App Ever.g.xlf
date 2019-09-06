@@ -183,6 +183,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table waldoSales&amp;Receivables - Field Grid - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1162348998 - NamedType 1543174141" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text in Assited Setup List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CompanyInfoAssistedSetup2 - NamedType WizardTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
           <source>Notification Name</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -123,7 +123,13 @@ page 50101 "SomeWizard Wizard"
                 Image = Approve;
                 InFooterBar = true;
                 trigger OnAction();
+                var
+                    AssistedSetup: Codeunit "Assisted Setup";
+                    Info: ModuleInfo;
                 begin
+                    NavApp.GetCurrentModuleInfo(Info);
+                    AssistedSetup.Complete(Info.Id(), PAGE::"SomeWizard Wizard");
+
                     FinishAction();
                 end;
             }
