@@ -148,6 +148,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field SumFlowField2 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4179664153 - Field 920287221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MySystemTable - Field C - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4092425771 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MyField</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -477,6 +482,11 @@
           <source>SomeTableWithFlowFields List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeTableWithFlowFields List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3895375093 - Action 1959401552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomePageActionsWithShortcuts - Action PostCustomer - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4003749509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Some Role Center</source>
