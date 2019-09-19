@@ -17,6 +17,6 @@ codeunit 50140 "Tempblobstuff"
         TempBlob2.CreateOutStream(Outstr);
         CopyStream(Outstr, instr);
 
-        message('%1', TempBlob2.Length());
+        //message('%1', TempBlob2.Length());
     end;
 }
