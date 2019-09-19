@@ -2,7 +2,7 @@ codeunit 50107 "CompanyInfoAssistedSetup2"
 {
     var
         WizardTxt: label 'Text in Assited Setup List';
-
+        
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Assisted Setup", 'OnRegister', '', false, false)]
     local procedure AddExtensionAssistedSetup_OnRegisterAssistedSetup();
     var
