@@ -34,4 +34,9 @@ table 50111 "Just Another Table"
         }
     }
 
+    procedure ShowSystemIdInIntellisense()
+    begin
+        message('%1', Rec.SystemId);
+    end;
+
 }
