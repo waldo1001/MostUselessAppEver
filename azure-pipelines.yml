@@ -26,10 +26,10 @@ steps:
   inputs:
     search_string: 'Ready for connections!'
 
-# - task: ALOpsLicenseImport@1
-#   inputs:
-#     usedocker: true
-#     license_path: $(bc.license)
+- task: ALOpsLicenseImport@1
+  inputs:
+    usedocker: true
+    license_path: $(bc.license)
     
 - task: ALOpsAppCompiler@1
   inputs:
