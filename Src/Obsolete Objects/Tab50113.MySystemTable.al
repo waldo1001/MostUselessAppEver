@@ -1,4 +1,4 @@
-table 50110 "MySystemTable"
+table 50113 "MySystemTable"
 {
     DataClassification = CustomerContent;
 
