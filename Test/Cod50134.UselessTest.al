@@ -18,7 +18,6 @@ codeunit 50134 "UselessTest"
         TSTAssert.AreEqual(customer."Search Name", customer.Name, 'Search name should be the same as name');
 
     end;
-    // [SCENARIO 12345] Useless test to showcase the pattern 
 
 
 }

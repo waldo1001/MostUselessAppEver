@@ -24,7 +24,7 @@ codeunit 50118 "ShowGlobalNotification"
 
     local procedure GetNotificationId(): Guid
     begin
-        exit('5c0976a1-ae31-4e69-b50f-a648f6c92bfa');
+        exit('0bb784d4-27f6-47b6-a0c9-773e40251a58');
     end;
 
     [EventSubscriber(ObjectType::Page, Page::"My Notifications", 'OnInitializingNotificationWithDefaultState', '', false, false)]

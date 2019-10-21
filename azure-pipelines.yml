@@ -4,14 +4,14 @@ variables:
 - name: 'AppVersion'
   value: '1.0.[yyyyWW].*'
 - name: 'dockerimage'
-  value: 'mcr.microsoft.com/businesscentral/sandbox'
+  value: 'mcr.microsoft.com/businesscentral/onprem'
 - name: 'TestFilter'
   value: '50100..50149'
 - name: 'bc_license'
   value: 'C:\vsts-agent-azure\license.flf'
 
 pool:
-  name: WaldoHetzner
+  name: Warp10
 
 steps:
 - checkout: self

@@ -10,7 +10,7 @@ codeunit 50103 "Just Some Notification"
         MyNotification: Notification;
     begin
         //create guid
-        MyNotification.Id := '';
+        MyNotification.Id := '113418e2-be17-4c33-b5bb-2fd759831da2';
         MyNotification.Message('Just Some Message');
         MyNotification.send();
     end;

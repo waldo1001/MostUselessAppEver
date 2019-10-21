@@ -24,7 +24,7 @@ codeunit 50121 "ShowNotificationOnRoleCenter"
 
     local procedure GetNotificationId(): Guid
     begin
-        exit('f8c7b763-fde2-4a2c-92d7-176ba69d9dcb');
+        exit('cd212249-598e-4c47-a48f-735a3e5711d3');
     end;
 
     [EventSubscriber(ObjectType::Page, Page::"My Notifications", 'OnInitializingNotificationWithDefaultState', '', false, false)]

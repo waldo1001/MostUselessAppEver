@@ -1,36 +1,59 @@
 codeunit 50107 "CompanyInfoAssistedSetup2"
 {
-    [EventSubscriber(ObjectType::Table, Database::"Aggregated Assisted Setup", 'OnRegisterAssistedSetup', '', false, false)]
-    local procedure AddExtensionAssistedSetup_OnRegisterAssistedSetup(var TempAggregatedAssistedSetup: Record "Aggregated Assisted Setup" TEMPORARY);
     var
-        AssistedSetupRecord: Record "Company Information";
+        WizardTxt: label 'Text in Assited Setup List';
+        
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Assisted Setup", 'OnRegister', '', false, false)]
+    local procedure AddExtensionAssistedSetup_OnRegisterAssistedSetup();
+    var
+        AssistedSetup: Codeunit "Assisted Setup";
+        CurrentGlobalLanguage: Integer;
+
     begin
-        TempAggregatedAssistedSetup.AddExtensionAssistedSetup(Page::"SomeWizard Wizard",
-                                                              'Text in Assisted Setup List',
-                                                              True,
-                                                              AssistedSetupRecord.RecordId(),
-                                                              GetAssistedSetupStatus(TempAggregatedAssistedSetup),
-                                                              '');
+        CurrentGlobalLanguage := GlobalLanguage();
+        AssistedSetup.Add(GetAppId(), GetPageId(), WizardTxt, "Assisted Setup Group"::Extensions);
+        GLOBALLANGUAGE(1033);
+        AssistedSetup.AddTranslation(GetAppId(), GetPageId(), 1033, WizardTxt);
+
+        UpdateStatus();
     end;
 
-    [EventSubscriber(ObjectType::Table, Database::"Aggregated Assisted Setup", 'OnUpdateAssistedSetupStatus', '', false, false)]
-    local procedure AggregatedAssistedSetup_OnUpdateAssistedSetupStatus(var TempAggregatedAssistedSetup: Record "Aggregated Assisted Setup" TEMPORARY);
+    local procedure UpdateStatus()
+    var
+        CompanyInformation: Record "Company Information";
+        AssistedSetup: Codeunit "Assisted Setup";
     begin
-        TempAggregatedAssistedSetup.SetStatus(TempAggregatedAssistedSetup, PAGE::"SomeWizard Wizard", GetAssistedSetupStatus(TempAggregatedAssistedSetup));
+        if not CompanyInformation.get() then exit;
+
+        if CompanyInformation."Home Page".ToLower().EndsWith('waldo.be') then
+            AssistedSetup.Complete(GetAppId(), GetPageId());
     end;
 
-    local procedure GetAssistedSetupStatus(AggregatedAssistedSetup: Record "Aggregated Assisted Setup"): Integer;
-    var
-        AssistedSetupRecord: Record "Company Information";
-    begin
-        WITH AggregatedAssistedSetup DO BEGIN
-            IF AssistedSetupRecord.Get() THEN
-                Status := Status::Completed
-            ELSE
-                Status := Status::"Not Completed";
+    //TODO: OnAfterRun / Find out where "IsComplete" is used / OnWizard: Complete On Finish Button
 
-            EXIT(Status);
-        END;
+
+    // [EventSubscriber(ObjectType::Codeunit, Codeunit::"Assisted Setup", 'OnAfterRun', '', false, false)]
+    // local procedure AggregatedAssistedSetup_OnUpdateAssistedSetupStatus(PageID: Integer);
+    // var
+    //     AssistedSetup: Codeunit "Assisted Setup";
+    // begin
+    //     if PageId = PAGE::"SomeWizard Wizard" then
+    //         AssistedSetup.IsComplete(GetAppId(), page::"SomeWizard Wizard");
+    // end;
+
+    local procedure GetAppId(): Guid
+    var
+        EmptyGuid: Guid;
+        Info: ModuleInfo;
+    begin
+        if Info.Id() = EmptyGuid then
+            NavApp.GetCurrentModuleInfo(Info);
+        exit(Info.Id());
+    end;
+
+    local procedure GetPageId(): Integer
+    begin
+        exit(page::"SomeWizard Wizard");
     end;
 }
 
