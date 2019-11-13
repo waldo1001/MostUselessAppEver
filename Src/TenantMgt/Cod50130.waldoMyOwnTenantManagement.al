@@ -28,9 +28,10 @@ codeunit 50130 "waldoMyOwnTenantManagement"
         CompleteMessage.AppendLine(StrSubstNo('GetTenantId - %1', TenantId()));
         CompleteMessage.AppendLine(StrSubstNo('IsProduction - %1', EnvironmentInformation.IsProduction()));
         CompleteMessage.AppendLine(StrSubstNo('IsSandbox - %1', EnvironmentInformation.IsSandbox()));
+        CompleteMessage.AppendLine(StrSubstNo('IsOnprem - %1', EnvironmentInformation.IsOnPrem()));
+        CompleteMessage.AppendLine(StrSubstNo('IsSaaS - %1', EnvironmentInformation.IsSaaS()));
+        CompleteMessage.AppendLine(StrSubstNo('IsFinancials - %1', EnvironmentInformation.IsFinancials()));
 
-        CompleteMessage.AppendLine(StrSubstNo('Is SaaS - %1', EnvironmentInformation.IsSaaS()));
-        CompleteMessage.AppendLine(StrSubstNo('Is Sandbox (CU9002) - %1', EnvironmentInformation.IsSandbox()));
 
         CompleteMessage.AppendLine(StrSubstNo('Is Intelligent Cloud - %1', PermissionManager.IsIntelligentCloud()));
 
