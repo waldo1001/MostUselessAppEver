@@ -2,7 +2,6 @@
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${CodeCop}",
-        "${AppSourceCop}",
         "${UICop}"
     ],
     "al.enableCodeActions": true,
@@ -11,7 +10,7 @@
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
     "CRS.OnSaveAlFileAction": "Rename",
     "CRS.ObjectNamePrefix": "",
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "CRS.AlSubFolderName": "None",
     "CRS.RemovePrefixFromFilename": true,
     "CRS.RemoveSuffixFromFilename": true,
@@ -23,5 +22,4 @@
         "titleBar.activeForeground": "#ffffff",
         "activityBar.foreground": "#ffffff"
     }
-
 }
