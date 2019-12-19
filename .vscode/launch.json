@@ -4,7 +4,7 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Your own server",
+            "name": "Publish",
             "server": "http://bccurrent",
             "serverInstance": "bc",
             "tenant": "default",
@@ -17,7 +17,21 @@
             // "breakOnRecordWrite": true,
             "startupObjectId": 22,
             "startupObjectType": "Page"
-
+        },
+        {
+            "name": "BreakNext - WebClient",
+            "type": "al",
+            "request": "attach",
+            "server": "http://bccurrent",
+            "serverInstance": "bc",
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "breakOnNext": "WebClient"
         }
     ]
 }
