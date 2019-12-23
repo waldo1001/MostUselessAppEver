@@ -3,7 +3,6 @@ page 50101 "SomeWizard Wizard"
     Caption = 'SomeWizard';
     PageType = NavigatePage;
     SourceTable = "Just Some Table";
-    SourceTableTemporary = true;
 
     layout
     {
@@ -64,6 +63,14 @@ page 50101 "SomeWizard Wizard"
                 InstructionalText = 'Step2 - Replace this text with some instructions.';
                 Visible = Step2Visible;
                 //You might want to add fields here
+                group(homepage)
+                {
+                    field(Description; Description)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Homepage';
+                    }
+                }
             }
 
 
@@ -124,11 +131,12 @@ page 50101 "SomeWizard Wizard"
                 InFooterBar = true;
                 trigger OnAction();
                 var
-                    AssistedSetup: Codeunit "Assisted Setup";
                     Info: ModuleInfo;
+                    SomeAssistedSetup: Codeunit "Some AssistedSetup";
                 begin
                     NavApp.GetCurrentModuleInfo(Info);
-                    AssistedSetup.Complete(Info.Id(), PAGE::"SomeWizard Wizard");
+
+                    SomeAssistedSetup.UpdateStatus();
 
                     FinishAction();
                 end;
@@ -141,14 +149,11 @@ page 50101 "SomeWizard Wizard"
     end;
 
     trigger OnOpenPage();
-    var
-        SomeTable: Record "Just Some Table";
     begin
-        INIT();
-        IF SomeTable.GET() THEN BEGIN
-            TRANSFERFIELDS(SomeTable);
+        IF NOT GET() THEN BEGIN
+            INIT();
+            INSERT();
         END;
-        INSERT();
 
         Step := Step::Start;
         EnableControls();
