@@ -2,7 +2,6 @@
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${CodeCop}",
-        "${AppSourceCop}",
         "${UICop}"
     ],
     "al.enableCodeActions": true,
@@ -10,7 +9,7 @@
     "al.incognito": false,
     "al.ruleSetPath": "./.codeAnalysis/thisproject.ruleset.json",
     "CRS.OnSaveAlFileAction": "Rename",
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "CRS.AlSubFolderName": "None",
     "CRS.ObjectNamePrefix": "WLD ",
     "CRS.FileNamePattern": "<prefix><ObjectTypeShort><ObjectId>.<ObjectNameShort>.al",
@@ -24,5 +23,4 @@
         "titleBar.activeForeground": "#ffffff",
         "activityBar.foreground": "#ffffff"
     }
-
 }
