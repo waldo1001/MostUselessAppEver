@@ -9,7 +9,7 @@
             "serverInstance": "bc",
             "tenant": "default",
             "authentication": "UserPassword",
-            "schemaUpdateMode": "ForceSync",
+            "schemaUpdateMode": "Synchronize",
             "breakOnError": true,
             "breakOnRecordWrite": false,
             // "skipSystemTriggers": false,

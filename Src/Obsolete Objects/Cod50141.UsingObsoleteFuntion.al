@@ -1,4 +1,4 @@
-codeunit 50139 "UsingObsoleteFuntion"
+codeunit 50141 "UsingObsoleteFuntion"
 {
     local procedure TotallyUselessFunction()
     var

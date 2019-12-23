@@ -7,24 +7,24 @@ table 50110 "TableThatNeedsUpgrade"
         {
             Caption = 'Code';
             DataClassification = CustomerContent;
+            ObsoleteReason = 'Needed to be Code[20]';
+            ObsoleteState = Removed;
         }
         field(2; "Name"; Text[50])
         {
             Caption = 'Name';
             DataClassification = CustomerContent;
-            // ObsoleteReason = 'Needed to be Code[20]';
-            // ObsoleteState = Removed;
         }
-        // field(3; "Code2"; Code[20])
-        // {
-        //     Caption = 'Code2';
-        //     DataClassification = CustomerContent;
-        // }
+        field(3; "Code2"; Code[20])
+        {
+            Caption = 'Code2';
+            DataClassification = CustomerContent;
+        }
     }
 
     keys
     {
-        key(PK; "Code")
+        key(PK; "Code2")
         {
             Clustered = true;
         }
