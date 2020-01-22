@@ -1,34 +1,34 @@
-tableextension 50100 "CustomerExt" extends Customer //18
+tableextension 50100 "WLD CustomerExt" extends Customer //18
 {
     fields
     {
-        field(50100; "waldoJust Some field"; Code[10])
+        field(50100; "WLD waldoJust Some field"; Code[10])
         {
             DataClassification = CustomerContent;
             TableRelation = "Just Some Table"."No.";
             caption = 'Just Some Field';
         }
-        field(50101; "waldoJust Some other field"; Code[10])
+        field(50101; "WLD waldoJust Some other field"; Code[10])
         {
             DataClassification = CustomerContent;
             TableRelation = "Just Some Table"."No.";
             caption = 'Just Some other Field';
         }
 
-        field(50102; "waldoJust third field"; Code[10])
+        field(50102; "WLD waldoJust third field"; Code[10])
         {
             DataClassification = CustomerContent;
             TableRelation = "Just Some Table"."No.";
             caption = 'Just a third field';
         }
 
-        field(50103; "waldoA Fourth field"; Blob)
+        field(50103; "WLD waldoA Fourth field"; Blob)
         {
             DataClassification = CustomerContent;
             Caption = 'Fourth field';
         }
 
-        field(50104; "waldoMy Fifth field"; Blob)
+        field(50104; "WLD waldoMy Fifth field"; Blob)
         {
             DataClassification = CustomerContent;
             Caption = 'My Fifth field';
@@ -53,6 +53,13 @@ tableextension 50100 "CustomerExt" extends Customer //18
         waldoControlPrognosesMeth: Codeunit "waldoControlPrognoses Meth";
     begin
         waldoControlPrognosesMeth.ControlPrognoses(Rec);
+    end;
+
+    procedure CreatePallet()
+    var
+        CreatePalletMeth: Codeunit "WLD CreatePallet Meth";
+    begin
+        CreatePalletMeth.CreatePallet(Rec);
     end;
 
     var
