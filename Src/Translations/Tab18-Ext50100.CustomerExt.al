@@ -1,4 +1,4 @@
-tableextension 50100 "WLD CustomerExt" extends Customer //18
+tableextension 50100 "CustomerExt" extends Customer //18
 {
     fields
     {
