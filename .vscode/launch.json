@@ -16,7 +16,7 @@
             // "launchBrowser": false,
             // "breakOnRecordWrite": true,
             "startupObjectId": 22,
-            "startupObjectType": "Page"
+            "startupObjectType": 
         },
         {
             "name": "BreakNext - WebClient",

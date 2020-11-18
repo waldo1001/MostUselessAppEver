@@ -1,18 +1,18 @@
-enum 50100 "BallColors" implements IBallColorIdentifier
+enum 50100 "WLD BallColors" implements "WLD IBallColorIdentifier"
 {
     Extensible = true;
     value(0; Tennis)
     {
-        Implementation = IBallColorIdentifier = Tennis;
+        Implementation = "WLD IBallColorIdentifier" = "WLD Tennis";
     }
 
     value(1; Basketball)
     {
-        Implementation = IBallColorIdentifier = Basketball;
+        Implementation = "WLD IBallColorIdentifier" = "WLD Basketball";
     }
 
     value(2; Soccer)
     {
-        Implementation = IBallColorIdentifier = Soccer;
+        Implementation = "WLD IBallColorIdentifier" = "WLD Soccer";
     }
 }

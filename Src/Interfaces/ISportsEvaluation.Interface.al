@@ -1,4 +1,4 @@
-interface "ISportsEvaluation"
+interface "WLD ISportsEvaluation"
 {
     procedure GetEvaluation(): Text;
 }

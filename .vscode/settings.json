@@ -16,7 +16,9 @@
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.RemovePrefixFromFilename": true,
     "CRS.RemoveSuffixFromFilename": true,
+    "CRS.RemoveUnderscoreFromFilename": true,
     "CRS.ExtensionObjectNamePattern": "<BaseNameShort>Ext",
+    "CRS.ObjectNamePrefix": "WLD ",
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#391742",
         "activityBar.background": "#391742",

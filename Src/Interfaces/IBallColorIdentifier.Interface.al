@@ -1,4 +1,4 @@
-interface "IBallColorIdentifier"
+interface "WLD IBallColorIdentifier"
 {
     procedure GetBallColor(): Text;
 }

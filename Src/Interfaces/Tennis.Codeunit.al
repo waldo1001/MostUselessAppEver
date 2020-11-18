@@ -1,4 +1,4 @@
-codeunit 50144 "Tennis" implements ISportsEvaluation, IBallColorIdentifier
+codeunit 50144 "WLD Tennis" implements "WLD ISportsEvaluation", "WLD IBallColorIdentifier"
 {
     procedure GetEvaluation(): Text;
     begin
