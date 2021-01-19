@@ -1,0 +1,15 @@
+###
+post https://pim-profpraxis.made-by-korazon.be:44392/api/rest/Echo/Echo
+Content-Type: application/json
+
+###
+post https://pim-profpraxis.made-by-korazon.be/api/rest/Echo/Echo
+Content-Type: application/json
+###
+post https://pim-profpraxis.made-by-korazon.be/api/rest/Authorization/GetToken
+Content-Type: application/json
+
+
+###
+Get https://pim-ardeca.made-by-korazon.be/api/rest/Authorization/GetToken
+Content-Type: application/json
