@@ -1,4 +1,4 @@
-pageextension 50105 "WLD CompanyInformationExt" extends "Company Information" //1
+pageextension 50105 "CompanyInformationExt" extends "Company Information" //1
 {
     layout
     {
@@ -27,4 +27,9 @@ pageextension 50105 "WLD CompanyInformationExt" extends "Company Information" //
     actions
     {
     }
+
+    trigger OnAfterGetCurrRecord()
+    begin
+
+    end;
 }
