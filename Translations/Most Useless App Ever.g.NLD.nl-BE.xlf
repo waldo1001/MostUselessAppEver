@@ -1,200 +1,1657 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="nl-BE" original="Most Useless App Ever.g.NLD.nl-BE.xlf" tool-id="ERPLoc" product-name="n/a" product-version="n/a" build-num="n/a">
-    <header>
-      <tool tool-id="ERPLoc" tool-name="ERPLoc" tool-version="1.0.171.269" tool-company="Microsoft CoreXT" />
-    </header>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="xml" source-language="en-US" target-language="nl-BE" original="Most Useless App Ever.g.NLD.nl-BE.xlf">
     <body>
       <group id="body">
-        <trans-unit id="Table 1055183171 - Field 1296262074 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
-          <source>MyField</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mijn Veld</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales&amp;amp;amp;amp;amp;amp;amp;Receivables - Field MyField - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3046260244 - Field 4200184881 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
+        <trans-unit id="Table 3043990830 - Field 4200184881 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>No.</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Nr.</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Completely Useless table - Field No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3046260244 - Field 3461834954 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
-          <source>Description</source>
-          <target state="translated">Beschrijving</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Completely Useless table - Field Description - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2294027 - Field 1296262074 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
-          <source>MyField</source>
-          <target state="translated">Mijn Veld</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field MyField - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2294027 - Field 3945078064 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
-          <source>MyField2</source>
-          <target state="translated">Mijn Veld 2</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field MyField2 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2294027 - Field 702913972 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
-          <source>My Field with a weird / Name</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mijn Veld met een weird-Naam</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field My Field with a weird / Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3043990830 - Field 4200184881 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
-          <source>No.</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Nr.</target>
+          <target state="translated">Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3043990830 - Field 3461834954 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
+        <trans-unit id="Table 3043990830 - Field 3461834954 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Beschrijving</target>
+          <target state="translated">Beschrijving</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Just Some Table - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 2757394829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1656136372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 3464043334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created at</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field created_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1627817627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field user - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1405163793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 372531027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>URL</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field html_url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3046260244 - Field 4200184881 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="translated">Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Completely Useless table - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3046260244 - Field 3461834954 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschrijving</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Completely Useless table - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 2767777121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField1</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 2130080504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField2</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 1492383887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField3</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2949988398 - Field 1661292910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField4</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTable - Field SomeField4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4056402490 - Field 4180432052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LookUpField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeOtherTable - Field LookUpField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2852411189 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableThatUsesFlowfield - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2852411189 - Field 3474358269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JustAField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableThatUsesFlowfield - Field JustAField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 2272340397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 1856803051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeCode</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field SomeCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1872802306 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Some Entry Table - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 2772140846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LookUpFlowField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field LookUpFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 3661844829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CountFlowField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field CountFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 211490861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExistFlowField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field ExistFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 3191673797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SumFlowField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field SumFlowField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2943504829 - Field 2188867347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SumFlowField2</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SomeTableWithFlowFields - Field SumFlowField2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4092425771 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRS SomeTableForPrefixing CRS - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4092425771 - Field 783256712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OtherrField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRS SomeTableForPrefixing CRS - Field OtherrField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2294027 - Field 1296262074 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <target state="translated">Mijn Veld</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field MyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2294027 - Field 3945078064 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>MyField2</source>
+          <target state="translated">Mijn Veld 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field MyField2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2294027 - Field 702913972 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>My Field with a weird / Name</source>
+          <target state="translated">Mijn Veld met een weird-Naam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JustATestTable - Field My Field with a weird / Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1055183171 - Field 1296262074 - Property 2879900210" translate="yes" xml:space="preserve">
+          <source>MyField</source>
+          <target state="translated">Mijn Veld</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales&amp;amp;amp;amp;amp;amp;amp;Receivables - Field MyField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 2750766566" translate="yes" xml:space="preserve">
           <source>Notification Name</source>
           <target state="new">Notification Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
         </trans-unit>
         <trans-unit id="Codeunit 3082894166 - Method 3565230117 - NamedType 1314462029" translate="no" xml:space="preserve">
           <source>Description Text</source>
           <target state="final">Description Text</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyNotifications - Procedure MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
         </trans-unit>
         <trans-unit id="Codeunit 2770123433 - Method 999142918 - NamedType 995150" translate="no" xml:space="preserve">
           <source>Some Service Name</source>
           <target state="final">Some Service Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Procedure AddSetup_OnRegisterServiceConnection - NamedType ServiceName</note>
         </trans-unit>
         <trans-unit id="Codeunit 2770123433 - Method 999142918 - NamedType 2733904281" translate="no" xml:space="preserve">
           <source>Some Host Name</source>
           <target state="final">Some Host Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MyServiceConnection - Procedure AddSetup_OnRegisterServiceConnection - NamedType HostName</note>
         </trans-unit>
-        <trans-unit id="Codeunit 268642636 - Method 2414515418 - NamedType 1819989136" translate="yes" xml:space="preserve" approved="yes">
+        <trans-unit id="Codeunit 268642636 - Method 2414515418 - NamedType 1819989136" translate="yes" xml:space="preserve">
           <source>Are you sure?</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Weet u het zeker?</target>
+          <target state="translated">Weet u het zeker?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Procedure ConfirmCreatePallet - NamedType AreYouSure</note>
         </trans-unit>
-        <trans-unit id="Codeunit 268642636 - Method 2182258215 - NamedType 3878926381" translate="yes" xml:space="preserve" approved="yes">
+        <trans-unit id="Codeunit 268642636 - Method 2182258215 - NamedType 3878926381" translate="yes" xml:space="preserve">
           <source>Success!</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Geslaagd!</target>
+          <target state="translated">Geslaagd!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreatePallet Meth - Procedure AckCreatePallet - NamedType Success</note>
         </trans-unit>
-        <trans-unit id="Page 3519257680 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
+        <trans-unit id="Codeunit 526037439 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowGlobalNotification - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 526037439 - Method 3565230117 - NamedType 1314462029" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowGlobalNotification - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 676847404 - Method 3565230117 - NamedType 2750766566" maxwidth="128" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType NotificationName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 676847404 - Method 3565230117 - NamedType 1314462029" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just Some Notification</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ShowNotificationOnRoleCenter - Method MyNotifications.OnInitializingNotificationWithDefaultState - NamedType DescriptionText</note>
+        </trans-unit>
+        <trans-unit id="Page 3519257680 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>SomeWizard</source>
-          <target state="translated" state-qualifier="mt-suggestion">SomeWizard</target>
+          <target state="translated">SomeWizard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 1121962313 - Property 2879900210" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion"></target>
+          <target state="needs-review-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control StandardBanner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 300852202 - Property 2879900210" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion"></target>
+          <target state="needs-review-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control FinishedBanner - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1033154962 - Property 2879900210" translate="yes" xml:space="preserve" approved="yes">
+        <trans-unit id="Page 3519257680 - Control 1033154962 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Welcome to SomeWizard Setup</source>
-          <target state="translated" state-qualifier="mt-suggestion">Welkom bij Instelling van SomeWizard</target>
+          <target state="translated">Welkom bij Instelling van SomeWizard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Welcome to SomeWizard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 1612614122 - Property 2879900210" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion"></target>
+          <target state="needs-review-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 1968111052" translate="yes" xml:space="preserve" approved="yes">
+        <trans-unit id="Page 3519257680 - Control 1612614122 - Property 1968111052" translate="yes" xml:space="preserve">
           <source>Step1 - Replace this text with some instructions.</source>
-          <target state="translated" state-qualifier="mt-suggestion">Step1 - Vervangen deze tekst met sommige instructies.</target>
+          <target state="translated">Step1 - Vervangen deze tekst met sommige instructies.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group18 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 3647570164 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Let's go!</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Aan de slag!</target>
+          <target state="translated">Aan de slag!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Let's go! - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 727926705 - Property 2879900210" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion"></target>
+          <target state="needs-review-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 727926705 - Property 1968111052" translate="yes" xml:space="preserve">
           <source>Step1 - Replace this text with some more instructions.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Step1 - Vervangen deze tekst met sommige meer instructies.</target>
+          <target state="needs-review-translation">Step1 - Vervangen deze tekst met sommige meer instructies.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group22 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 2279239964 - Property 2879900210" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion"></target>
+          <target state="needs-review-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 2279239964 - Property 1968111052" translate="yes" xml:space="preserve">
           <source>Step2 - Replace this text with some instructions.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Step2 - Vervangen deze tekst met sommige instructies.</target>
+          <target state="needs-review-translation">Step2 - Vervangen deze tekst met sommige instructies.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Step2 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 1365623322 - Property 2879900210" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion"></target>
+          <target state="needs-review-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 1365623322 - Property 1968111052" translate="yes" xml:space="preserve">
           <source>Step3 - Replace this text with some instructions.</source>
           <target state="translated">Stap 3 - Vervang deze tekst door enkele instructies.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group23 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 1546979963 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>That's it!</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Dat is alles!</target>
+          <target state="translated">Dat is alles!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control That's it! - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 2641016556 - Property 2879900210" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion"></target>
+          <target state="needs-review-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Control 2641016556 - Property 1968111052" translate="yes" xml:space="preserve">
           <source>To save this setup, choose Finish.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u wilt opslaan deze instelling, kiest u volt Ooien.</target>
+          <target state="needs-review-translation">Als u wilt opslaan deze instelling, kiest u volt Ooien.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Control Group25 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Action 2438272767 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Back</source>
           <target state="translated">Terug</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionBack - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Action 914282563 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Next</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Volgende</target>
+          <target state="translated">Volgende</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionNext - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3519257680 - Action 3259912055 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Finish</source>
-          <target state="translated" state-qualifier="x-microsoft-exact-match">Voltooien</target>
+          <target state="translated">Voltooien</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SomeWizard Wizard - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 482740450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AL Issues</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALIssueList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 482740450 - Action 2151166085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Issues</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALIssueList - Action RefreshALIssueList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1376658080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Some Entry Table List</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Entry Table List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4237484883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeTableWithFlowFields List</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SomeTableWithFlowFields List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Some Role Center</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2">{Dependency=Match,"ProfileDescription_ORDERPROCESSOR"}</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1576679897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage sales processes, view KPIs, and access your favorite items and customers.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action embedding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1159415319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1159415319 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record your agreements with customers to sell certain products on certain delivery and payment terms. Sales orders, unlike sales invoices, allow you to ship partially, deliver directly from your vendor to your customer, initiate warehouse handling, and print various customer-facing documents. Sales invoicing is integrated in the sales order process.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesOrders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4222419314 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipped Not Invoiced</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesOrdersShptNotInv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4222419314 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View sales documents that are shipped but not yet invoiced.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesOrdersShptNotInv - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3180006285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completely Shipped Not Invoiced</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesOrdersComplShtNotInv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3180006285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View sales documents that are fully shipped but not fully invoiced.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesOrdersComplShtNotInv - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3735619947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders - Microsoft Dynamics 365 for Sales</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Orders - Microsoft Dynamics 365 for Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3735619947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View sales orders in Dynamics 365 for Sales that are coupled with sales orders in Business Central.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Orders - Microsoft Dynamics 365 for Sales - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 734185571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quotes</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Quotes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 734185571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make offers to customers to sell certain products on certain delivery and payment terms. While you negotiate with a customer, you can change and resend the sales quote as much as needed. When the customer accepts the offer, you convert the sales quote to a sales invoice or a sales order in which you process the sale.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Quotes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3925560610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Sales Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Blanket Sales Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3925560610 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use blanket sales orders as a framework for a long-term agreement between you and your customers to sell large quantities that are to be delivered in several smaller shipments over a certain period of time. Blanket orders often cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes..</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Blanket Sales Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1693997414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1693997414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register your sales to customers and invite them to pay according to the delivery and payment terms by sending them a sales invoice document. Posting a sales invoice registers shipment and records an open receivable entry on the customer's account, which will be closed when payment is received. To manage the shipment process, use sales orders, in which sales invoicing is integrated.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1948356160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1948356160 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Revert the financial transactions involved when your customers want to cancel a purchase or return incorrect or damaged items that you sent to them and received payment for. To include the correct information, you can create the sales credit memo from the related posted sales invoice or you can create a new sales credit memo with copied invoice information. If you need more control of the sales return process, such as warehouse documents for the physical handling, use sales return orders, in which sales credit memos are integrated. Note: If an erroneous sale has not been paid yet, you can simply cancel the posted sales invoice to automatically revert the financial transaction.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3507632001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Return Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3507632001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensate your customers for incorrect or damaged items that you sent to them and received payment for. Sales return orders enable you to receive items from multiple sales documents with one sales return, automatically create related sales credit memos or other return-related documents, such as a replacement sales order, and support warehouse documents for the item handling. Note: If an erroneous sale has not been paid yet, you can simply cancel the posted sales invoice to automatically revert the financial transaction.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Return Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1554554962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1554554962 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the products that you trade in. The item card can be of type Inventory or Service to specify if the item is a physical unit or a labor time unit. Here you also define if items in inventory or on incoming orders are automatically reserved for outbound documents and whether order tracking links are created between demand and supply to reflect planning actions.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Items - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3606140129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3606140129 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the customers that you trade with. From each customer card, you can open related information, such as sales statistics and ongoing orders, and you can define special prices and line discounts that you grant if certain conditions are met.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3724520305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3724520305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post item transactions directly to the item ledger to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents. You can save sets of item journal lines as standard journals so that you can perform recurring postings quickly. A condensed version of the item journal function exists on item cards for quick adjustment of an items inventory quantity.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Journals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 561664318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesJournals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 561664318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post any sales-related transaction directly to a customer, bank, or general ledger account instead of using dedicated documents. You can post all types of financial sales transactions, including payments, refunds, and finance charge amounts. Note that you cannot post item quantities with a sales journal.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action SalesJournals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1690647457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Receipt Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action CashReceiptJournals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1690647457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register received payments by manually applying them to the related customer, vendor, or bank ledger entries. Then, post the payments to G/L accounts and thereby close the related ledger entries.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action CashReceiptJournals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3061233890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Transfer Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3061233890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move inventory items between company locations. With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Transfer Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1406942772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1406942772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make quotes, orders, and credit memos to customers. Manage customers and view transaction history.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2509234963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action61 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2509234963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the customers that you trade with. From each customer card, you can open related information, such as sales statistics and ongoing orders, and you can define special prices and line discounts that you grant if certain conditions are met.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action61 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 319612839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quotes</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action74 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 319612839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make offers to customers to sell certain products on certain delivery and payment terms. While you negotiate with a customer, you can change and resend the sales quote as much as needed. When the customer accepts the offer, you convert the sales quote to a sales invoice or a sales order in which you process the sale.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action74 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 69955983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 69955983 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record your agreements with customers to sell certain products on certain delivery and payment terms. Sales orders, unlike sales invoices, allow you to ship partially, deliver directly from your vendor to your customer, initiate warehouse handling, and print various customer-facing documents. Sales invoicing is integrated in the sales order process.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3315840603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Sales Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action69 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3315840603 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use blanket sales orders as a framework for a long-term agreement between you and your customers to sell large quantities that are to be delivered in several smaller shipments over a certain period of time. Blanket orders often cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes..</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action69 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4145792541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action72 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4145792541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register your sales to customers and invite them to pay according to the delivery and payment terms by sending them a sales invoice document. Posting a sales invoice registers shipment and records an open receivable entry on the customer's account, which will be closed when payment is received. To manage the shipment process, use sales orders, in which sales invoicing is integrated.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action72 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2870399307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action70 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2870399307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensate your customers for incorrect or damaged items that you sent to them and received payment for. Sales return orders enable you to receive items from multiple sales documents with one sales return, automatically create related sales credit memos or other return-related documents, such as a replacement sales order, and support warehouse documents for the item handling. Note: If an erroneous sale has not been paid yet, you can simply cancel the posted sales invoice to automatically revert the financial transaction.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action70 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3508095924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action71 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3508095924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Revert the financial transactions involved when your customers want to cancel a purchase or return incorrect or damaged items that you sent to them and received payment for. To include the correct information, you can create the sales credit memo from the related posted sales invoice or you can create a new sales credit memo with copied invoice information. If you need more control of the sales return process, such as warehouse documents for the physical handling, use sales return orders, in which sales credit memos are integrated. Note: If an erroneous sale has not been paid yet, you can simply cancel the posted sales invoice to automatically revert the financial transaction.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action71 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2557119366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2557119366 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post any sales-related transaction directly to a customer, bank, or general ledger account instead of using dedicated documents. You can post all types of financial sales transactions, including payments, refunds, and finance charge amounts. Note that you cannot post item quantities with a sales journal.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Journals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3434938165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Invoices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3434938165 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales invoices.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2557560783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Credit Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2557560783 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales credit memos.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2974556624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Return Receipts</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Return Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2974556624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales return receipts.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Return Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1840709038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Shipments</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1840709038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales shipments.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Sales Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3953537220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action68 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3953537220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move inventory items between company locations. With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action68 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1386416279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Reminders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1386416279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remind customers about overdue amounts based on reminder terms and the related reminder levels. Each reminder level includes rules about when the reminder will be issued in relation to the invoice due date or the date of the previous reminder and whether interests are added. Reminders are integrated with finance charge memos, which are documents informing customers of interests or other money penalties for payment delays.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Reminders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 618528661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance Charge Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Finance Charge Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 618528661 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send finance charge memos to customers with delayed payments, typically following a reminder process. Finance charges are calculated automatically and added to the overdue amounts on the customer's account according to the specified finance charge terms and penalty/interest amounts.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Finance Charge Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1554716946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchasing</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchasing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1554716946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View history for sales, shipments, and inventory.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchasing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 713531721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendors</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Vendors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 713531721 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the vendors that you trade with. From each vendor card, you can open related information, such as purchase statistics and ongoing orders, and you can define special prices and line discounts that the vendor grants you if certain conditions are met.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Vendors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1819353702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Quotes</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Quotes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1819353702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase quotes to represent your request for quotes from vendors. Quotes can be converted to purchase orders.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Quotes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2882327954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2882327954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase orders to mirror sales documents that vendors send to you. This enables you to record the cost of purchases and to track accounts payable. Posting purchase orders dynamically updates inventory levels so that you can minimize inventory costs and provide better customer service. Purchase orders allow partial receipts, unlike with purchase invoices, and enable drop shipment directly from your vendor to your customer. Purchase orders can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1225303959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Purchase Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Blanket Purchase Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1225303959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use blanket purchase orders as a framework for a long-term agreement between you and your vendors to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. Blanket orders often cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a purchase order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Blanket Purchase Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4037192291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Invoices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4037192291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase invoices to mirror sales documents that vendors send to you. This enables you to record the cost of purchases and to track accounts payable. Posting purchase invoices dynamically updates inventory levels so that you can minimize inventory costs and provide better customer service. Purchase invoices can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 849761688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Return Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Return Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 849761688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase return orders to mirror sales return documents that vendors send to you for incorrect or damaged items that you have paid for and then returned to the vendor. Purchase return orders enable you to ship back items from multiple purchase documents with one purchase return and support warehouse documents for the item handling. Purchase return orders can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature. Note: If you have not yet paid for an erroneous purchase, you can simply cancel the posted purchase invoice to automatically revert the financial transaction.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Return Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 291926049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Credit Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 291926049 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase credit memos to mirror sales credit memos that vendors send to you for incorrect or damaged items that you have paid for and then returned to the vendor. If you need more control of the purchase return process, such as warehouse documents for the physical handling, use purchase return orders, in which purchase credit memos are integrated. Purchase credit memos can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature. Note: If you have not yet paid for an erroneous purchase, you can simply cancel the posted purchase invoice to automatically revert the financial transaction.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Purchase Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 101427331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action PurchaseJournals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 101427331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post any purchase-related transaction directly to a vendor, bank, or general ledger account instead of using dedicated documents. You can post all types of financial purchase transactions, including payments, refunds, and finance charge amounts. Note that you cannot post item quantities with a purchase journal.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action PurchaseJournals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 407220332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Invoices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 407220332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a list of posted purchase invoices.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4135951594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Credit Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4135951594 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a list of posted purchase credit memos.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1497693469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Return Shipments</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Return Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1497693469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a list of posted purchase return shipments.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Return Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1116965951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Receipts</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1116965951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted purchase receipts.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Purchase Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2105307182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage physical or service-type items that you trade in by setting up item cards with rules for pricing, costing, planning, reservation, and tracking. Set up storage places or warehouses and how to transfer between such locations. Count, adjust, reclassify, or revalue inventory.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 598289752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action93 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 598289752 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the products that you trade in. The item card can be of type Inventory or Service to specify if the item is a physical unit or a labor time unit. Here you also define if items in inventory or on incoming orders are automatically reserved for outbound documents and whether order tracking links are created between demand and supply to reflect planning actions.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action93 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2511379603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action96 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2511379603 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post item transactions directly to the item ledger to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents. You can save sets of item journal lines as standard journals so that you can perform recurring postings quickly. A condensed version of the item journal function exists on item cards for quick adjustment of an items inventory quantity.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action96 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 200707616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Charges</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Charges - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 200707616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit the codes for item charges that you can assign to purchase and sales transactions to include any added costs, such as freight, physical handling, and insurance that you incur when purchasing or selling items. This is important to ensure correct inventory valuation. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Charges - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 339140622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Attributes</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Attributes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 339140622 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign item attribute values to your items to enable rich searching and sorting options. When customers inquire about an item, either in correspondence or in an integrated web shop, they can then ask or search according to characteristics, such as height and model year. You can also assign item attributes to item categories, which then apply to the items that use the item categories in question.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Attributes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 392666526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracking</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Tracking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 392666526 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign serial numbers and lot numbers to any outbound or inbound document for quality assurance, recall actions, and to control expiration dates and warranties. Use the Item Tracing window to trace items with serial or lot numbers backwards and forward in their supply chain</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Tracking - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1480337242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Reclassification Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Reclassification Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1480337242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change information on item ledger entries, such as dimensions, location codes, bin codes, and serial or lot numbers.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Item Reclassification Journals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1451304824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phys. Inventory Journals</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Phys. Inventory Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1451304824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select how you want to maintain an up-to-date record of your inventory at different locations.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Phys. Inventory Journals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1119230149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Assembly Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1119230149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Combine components in simple processes without the need of manufacturing functionality. Sell assembled items by building the item to order or by picking from stock.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Assembly Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2818106590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Drop Shipments</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Drop Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2818106590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimize delivery time and inventory cost by having items shipped from your vendor directly to your customer. This simply requires that you mark the sales order for drop shipment and then create a linked purchase order with the customer specified as the recipient. </source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Drop Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 890861418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locations</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Locations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 890861418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage the different places or warehouses where you receive, process, or ship inventory to increase customer service and keep inventory costs low.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Locations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3381351663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Documents</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Documents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3381351663 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the posting history for sales, shipments, and inventory.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Documents - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 902573977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Invoices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action32 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 902573977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales invoices.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action32 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2177967211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Credit Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action34 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2177967211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales credit memos.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action34 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 699376808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Return Receipts</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Return Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 699376808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted return receipts.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Return Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2610663038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Shipments</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action40 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2610663038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales shipments.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action40 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4078311593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Invoices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action54 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4078311593 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted purchase invoices.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action54 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1698578788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Credit Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action86 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1698578788 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the list of posted purchase credit memos.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action86 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1060882171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Return Shipments</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action87 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1060882171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the list of posted purchase return shipments.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action87 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1696434148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Receipts</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action53 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1696434148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted purchase receipts.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Action53 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 627180795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Transfer Shipments</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Transfer Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 627180795 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted transfer shipments.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Transfer Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1037826143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Transfer Receipts</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Transfer Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1037826143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted transfer receipts.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Posted Transfer Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4091799740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued Reminders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Issued Reminders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4091799740 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the list of issued reminders.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Issued Reminders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 761779018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued Finance Charge Memos</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Issued Finance Charge Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 761779018 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the list of issued finance charge memos.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Issued Finance Charge Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2212909512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Self-Service</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Self-Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2212909512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage your time sheets and assignments.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Self-Service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1861040219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheets</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Time Sheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1861040219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of your resources' time sheets. Time sheets enable resources to register time. When approved, if approval is required, time sheet entries can be posted to the relevant job journal or resource journal as part of project progress reporting. To save setup time and to ensure data correctness, you can copy job planning lines into time sheets.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Time Sheets - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4055617089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4055617089 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the card for the selected record.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Open - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1907454742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submitted</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Submitted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1907454742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of submitted time sheets.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Submitted - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3968783111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Rejected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3968783111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of rejected time sheets.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Rejected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3702949100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Approved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3702949100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of approved time sheets.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Page Time Sheet List Approved - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3797133345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Tasks</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action User Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3797133345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action User Tasks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2984996136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Quote</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2984996136 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales quote to offer items or services to a customer.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Quote - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4181590817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Invoice</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4181590817 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new invoice for the sales of items or services. Invoice quantities cannot be posted partially.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1333397436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Order</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1333397436 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales order for items or services.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3714254622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Return Order</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Return Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3714254622 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensate your customers for incorrect or damaged items that you sent to them and received payment for. Sales return orders enable you to receive items from multiple sales documents with one sales return, automatically create related sales credit memos or other return-related documents, such as a replacement sales order, and support warehouse documents for the item handling. Note: If an erroneous sale has not been paid yet, you can simply cancel the posted sales invoice to automatically revert the financial transaction.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Return Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1856194291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Credit Memo</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1856194291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales credit memo to revert a posted sales invoice.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Credit Memo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2973329650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tasks</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2015624257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Journal</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2015624257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open a sales journal where you can batch post sales transactions to G/L, bank, customer, vendor and fixed assets accounts.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales &amp;Journal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2311124359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Price &amp;Worksheet</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Price &amp;Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2311124359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage sales prices for individual customers, for a group of customers, for all customers, or for a campaign.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Sales Price &amp;Worksheet - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2743182297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action ActionGroup42 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 954668148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Prices</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action &amp;Prices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 954668148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up different prices for items that you sell to the customer. An item price is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action &amp;Prices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1978809058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line Discounts</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action &amp;Line Discounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1978809058 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up different discounts for items that you sell to the customer. An item discount is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action &amp;Line Discounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 2176459415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3092092583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - &amp;Order Summary</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customer - &amp;Order Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3092092583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the quantity not yet shipped for each customer in three periods of 30 days each, starting from a selected date. There are also columns with orders to be shipped before and after the three periods and a column with the total order detail for each customer. The report can be used to analyze a company's expected sales volume.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customer - &amp;Order Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3179456745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - &amp;Top 10 List</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customer - &amp;Top 10 List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3179456745 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View which customers purchase the most or owe the most in a selected period. Only customers that have either purchases during the period or a balance at the end of the period will be included.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customer - &amp;Top 10 List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3209082316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer/&amp;Item Sales</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customer/&amp;Item Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3209082316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of item sales for each customer during a selected time period. The report contains information on quantity, sales amount, profit, and possible discounts. It can be used, for example, to analyze a company's customer groups.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Customer/&amp;Item Sales - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3813574741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action ActionGroup31 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 810681621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Sales &amp;Statistics</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Salesperson - Sales &amp;Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 810681621 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View amounts for sales, profit, invoice discount, and payment discount, as well as profit percentage, for each salesperson for a selected period. The report also shows the adjusted profit and adjusted profit percentage, which reflect any changes to the original costs of the items in the sales.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Salesperson - Sales &amp;Statistics - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3751545307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price &amp;List</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Price &amp;List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 3751545307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of your items and their prices, for example, to send to customers. You can create the list for specific customers, campaigns, currencies, or other criteria.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Price &amp;List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1309467033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Sales &amp;Back Orders</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Inventory - Sales &amp;Back Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1309467033 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list with the order lines whose shipment date has been exceeded. The following information is shown for the individual orders for each item: number, customer name, customer's telephone number, shipment date, order quantity and quantity on back order. The report also shows whether there are other items for the customer on back order.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Inventory - Sales &amp;Back Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 4201773078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1814405003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navi&amp;gate</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Navi&amp;gate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4003749509 - Action 1814405003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find all entries and documents that exist for the document number and posting date on the selected entry or document.</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Some Role Center - Action Navi&amp;gate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1496902179 - Action 2391746896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trigger Event</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Action TriggerEvent - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1301162578 - Action 1861714008 - Property 2879900210" translate="yes" xml:space="preserve">
           <source>Create Pallet</source>
-          <target state="translated" state-qualifier="mt-suggestion">Pallet maken</target>
+          <target state="translated">Pallet maken</target>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Action CreatePallet - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2336385525 - Field 2765746434 - Property 3830149458" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 971914333 - Field 3119386769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waldo App Area</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ApplicationAreaSetupExt - Field Waldo App Area - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 125480607 - Field 3474358269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JustAField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemLedgerEntryExt - Field JustAField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2780128723 - Field 3554030844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waldos Field</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustLedgerEntryExt - Field Waldos Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 556756296 - Field 2608731682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AccSchedCellValueExt - Field CRS SomeField CRS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 556756296 - Field 4209440710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SomeOtherField</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AccSchedCellValueExt - Field CRS SomeOtherField CRS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 2765746434 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just Some Field</source>
-          <target state="translated">Zomaar een veld</target>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just Some field - Property caption</note>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just Some field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2336385525 - Field 2674474782 - Property 3830149458" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 2674474782 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just Some other Field</source>
-          <target state="translated">Gewoon een ander veld</target>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just Some other field - Property caption</note>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just Some other field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2336385525 - Field 3876164035 - Property 3830149458" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 3876164035 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Just a third field</source>
-          <target state="translated">Gewoon een derde veld</target>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field Just third field - Property caption</note>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Just third field - Property caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2336385525 - Field 3320410323 - Property 2879900210" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1713901351 - Field 3320410323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fourth field</source>
-          <target state="translated" state-qualifier="mt-suggestion">Vierde veld</target>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Just Some Table Extension - Field A Fourth field - Property Caption</note>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field A Fourth field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 1532687237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Fifth field</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field My Fifth field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - NamedType 1624856017" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Just a label</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2">Used in code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - NamedType 936442079" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Just a label 2</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel2</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - NamedType 1574138696" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Just a label 3</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel3</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - NamedType 467654485" maxwidth="111" size-unit="char" translate="no" xml:space="preserve">
+          <source>Just a label 4</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2">Take this into account</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - NamedType JustALabel4</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3461155121 - Field 1387653341 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gilbert</source>
+          <target state="needs-translation"></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesLineExt - Field Gilbert - Property Caption</note>
         </trans-unit>
       </group>
     </body>

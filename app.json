@@ -34,7 +34,7 @@
   ],
   "contextSensitiveHelpUrl": "https://www.waldo.be/",
   "showMyCode": true,
-  "runtime": "6.0",
+  "runtime": "7.0",
   "features": [
     "TranslationFile"
   ],

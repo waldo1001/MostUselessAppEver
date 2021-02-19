@@ -15,6 +15,7 @@ codeunit 50130 "WLD waldoMyOwnTenantManagement"
         PermissionManager: codeunit "Permission Manager";
         CompleteMessage: TextBuilder;
     begin
+
         CompleteMessage.Clear();
         //CompleteMessage.AppendLine(StrSubstNo('GetAadTenantDomainName - %1', TenantMgt.GetAadTenantDomainName()));
         CompleteMessage.AppendLine(StrSubstNo('GetAadTenantId - %1', AzureADTenant.GetAadTenantId()));
