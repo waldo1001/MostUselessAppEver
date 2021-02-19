@@ -1,0 +1,17 @@
+@username = ERIC.WAUTERS
+@password = FPaVUOWPWNQN5PVtePDcma7vX0FAGv3Cv1exJzIHk0U=
+@tenantid = d61c0367-b31d-4f6b-ab32-7fbb2e1c2772
+@env = QA
+@baseurl = https://api.businesscentral.dynamics.com/v2.0/{{tenantid}}/{{env}}/api/
+
+
+### Get Companies
+# @name companies
+get {{baseurl}}/microsoft/automation/beta/companies
+Authorization: Basic {{username}} {{password}}
+
+### All API Routes
+@companyid = {{companies.response.body.$.value[0].id}}
+
+get {{baseurl}}/microsoft/runtime/beta/companies({{companyid}})/apiRoutes
+Authorization: Basic {{username}} {{password}}

@@ -1,0 +1,99 @@
+@username = ERIC.WAUTERS
+@password = FPaVUOWPWNQN5PVtePDcma7vX0FAGv3Cv1exJzIHk0U=
+@tenantid = d61c0367-b31d-4f6b-ab32-7fbb2e1c2772
+@env = QA
+@baseurl = https://api.businesscentral.dynamics.com/v2.0/{{tenantid}}/{{env}}/api/
+
+
+### All APIs
+get {{baseurl}}/microsoft/automation/beta
+Authorization: Basic {{username}} {{password}}
+
+### All metadata
+get {{baseurl}}/microsoft/automation/beta/$metadata
+Authorization: Basic {{username}} {{password}}
+
+### Get Companies
+# @name companies
+get {{baseurl}}/microsoft/automation/beta/companies
+Authorization: Basic {{username}} {{password}}
+
+###
+@companyid = {{companies.response.body.$.value[0].id}}
+
+### Get Items 
+get {{baseurl}}/v2.0/companies({{companyid}})/items
+Authorization: Basic {{username}} {{password}}
+
+### Insert Item
+# @name inserteditem
+post {{baseurl}}/v2.0/companies({{companyid}})/items
+Authorization: Basic {{username}} {{password}}
+Content-Type: application/json
+
+{
+    "displayName": "waldo's new item"
+}
+
+###
+@newitemid = {{inserteditem.response.body.$.id}}
+
+
+
+
+### Modify Item
+patch {{baseurl}}/v2.0/companies({{companyid}})/items({{newitemid}})
+Authorization: Basic {{username}} {{password}}
+Content-Type: application/json
+If-Match: *
+
+{
+    "displayName": "Blah"
+}
+
+
+
+
+### Delete Item
+# @name itemstodelete
+get {{baseurl}}/v2.0/companies({{companyid}})/items?$filter=startswith(displayName,'waldo')
+Authorization: Basic {{username}} {{password}}
+
+### 
+@firstItemToDelete = {{itemstodelete.response.body.$.value[0].id}}
+
+### 
+DELETE {{baseurl}}/v2.0/companies({{companyid}})/items({{firstItemToDelete}})
+Authorization: Basic {{username}} {{password}}
+If-Match: *
+
+
+
+
+##################################################################################
+# @name itemsresult
+get {{baseurl}}/v2.0/companies({{companyid}})/items?$filter=number eq '1928-S'
+Authorization: Basic {{username}} {{password}}
+
+###
+@itemid = {{itemsresult.response.body.$.value[0].id}}
+
+##################################################################################
+get {{baseurl}}/v2.0/companies({{companyid}})/items({{itemid}})
+Authorization: Basic {{username}} {{password}}
+
+##################################################################################
+# @name picturecontent
+get {{baseurl}}/v2.0/companies({{companyid}})/items({{itemid}})/picture({{itemid}})/content
+Authorization: Basic {{username}} {{password}}
+
+###
+@pictureid = {{picturecontent.response.body.$.TODO:}}
+
+##################################################################################
+patch {{baseurl}}/v2.0/companies({{companyid}})/picture(619311d1-2f9d-4570-aefe-f33d1113903d)/content
+Authorization: Basic {{username}} {{password}}
+Content-Type: image/png
+If-Match: *
+
+< C:\temp\fiets.png
