@@ -1,26 +1,23 @@
 name: $(Build.BuildId)
 
 variables:
+- group: Secrets
 - name: 'AppVersion'
   value: '1.0.[yyyyWW].*'
-- name: 'dockerimage'
-  value: 'mcr.microsoft.com/businesscentral/onprem'
-- name: 'TestFilter'
-  value: '50100..50149'
-- name: 'bc_license'
-  value: 'C:\vsts-agent-azure\license.flf'
 
 pool:
-  name: Warp10
+  name: WaldoHetzner
 
 steps:
 - checkout: self
   clean: true
-  
+
+- task: ALOpsDockerCreate@1
+  inputs:
+    artifacttype: OnPrem
+
 - task: ALOpsDockerStart@1
   inputs:
-    docker_image: $(dockerimage)
-    docker_pull: true
 
 - task: ALOpsDockerWait@1
   inputs:
@@ -51,7 +48,7 @@ steps:
     show_available_tests: true
   continueOnError: true    
 
-- task: PublishTestResults@1
+- task: PublishTestResults@2
   inputs:
     testResultsFormat: XUnit
     testResultsFiles: '**/TestResults.xml'
