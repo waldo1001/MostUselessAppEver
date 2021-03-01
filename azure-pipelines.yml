@@ -24,3 +24,5 @@ steps:
   inputs:
     artifacttype: 'Sandbox'
     appversiontemplate: '1.0.*.0'
+    versionselect: NextMajor
+    sastoken: $(bc.sasToken)
