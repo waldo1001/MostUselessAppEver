@@ -1,5 +1,10 @@
 name: $(Build.BuildId)
 
+trigger: 
+ branches:
+   include:
+     - master
+
 variables:
 - group: Secrets
 - name: 'AppVersion'
@@ -10,50 +15,12 @@ pool:
 
 steps:
 - checkout: self
-  clean: true
+  clean: true 
 
-- task: ALOpsDockerCreate@1
-  inputs:
-    artifacttype: OnPrem
+# This compiler (v2) is not going to use a docker container, but it's going to use the artifacts that you specify in the parameters
+# The compiler will "Batch Compile", meaning: it will compile everything in the workingfolder
 
-- task: ALOpsDockerStart@1
+- task: ALOpsAppCompiler@2
   inputs:
-
-- task: ALOpsDockerWait@1
-  inputs:
-    search_string: 'Ready for connections!'
-
-- task: ALOpsLicenseImport@1
-  inputs:
-    usedocker: true
-    license_path: $(bc.license)
-    
-- task: ALOpsAppCompiler@1
-  inputs:
-    usedocker: true
-    nav_app_version: $(AppVersion)
-    failed_on_warnings: false    
-
-- task: ALOpsAppPublish@1
-  inputs:
-    usedocker: true
-    nav_artifact_app_filter: '*.app'   
-    skip_verification: true 
-
-- task: ALOpsAppTest@1
-  inputs:
-    usedocker: true
-    import_action: "Skip"
-    testfilter: $(TestFilter)
-    show_available_tests: true
-  continueOnError: true    
-
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: XUnit
-    testResultsFiles: '**/TestResults.xml'
-    testRunTitle: 'BC Test Results: $(Build.BuildId)'
-
-- task: ALOpsDockerRemove@1
-  enabled: true
-  condition: always()    
+    artifacttype: 'Sandbox'
+    appversiontemplate: '1.0.*.0'
